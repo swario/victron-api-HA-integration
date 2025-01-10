@@ -1,0 +1,236 @@
+# Loads default set of integrations. Do not remove.
+default_config:
+
+# Load frontend themes from the themes folder
+frontend:
+  themes: !include_dir_merge_named themes
+
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+# Configuration of RESTful sensors to obtain data from Victron VRM cloud
+
+sensor:
+# Solar power (W)
+- platform: rest
+  name: "Victron Solar Power"
+  resource: "https://vrmapi.victronenergy.com/v2/installations/{installation_id}/widgets/Graph?attributeIds%5B%5D=442&instance=291"
+  headers:
+    Content-Type: "application/json"
+    x-authorization: "Token {your_token_here}"
+  value_template: "{{ value_json.records.data['442'][-1][1] }}"  # Extracts the latest value of the timeseries
+  unit_of_measurement: "W"
+  scan_interval: 60
+
+# Solar voltage (V)
+- platform: rest
+  name: "Victron Solar Voltage"
+  resource: "https://vrmapi.victronenergy.com/v2/installations/{installation_id}/widgets/Graph?attributeIds%5B%5D=86&instance=291"
+  headers:
+    Content-Type: "application/json"
+    x-authorization: "Token {your_token_here}"
+  value_template: "{{ value_json.records.data['86'][-1][1] }}"  # Extracts the latest value of the timeseries
+  unit_of_measurement: "V"
+  scan_interval: 60
+
+# Solar current (A) - Calculated as Solar Power / Solar Voltage
+- platform: template
+  sensors:
+    victron_solar_current:
+      friendly_name: "Victron Solar Current"
+      unit_of_measurement: "A"
+      value_template: "{{ (states('sensor.victron_solar_power') | float) / (states('sensor.victron_solar_voltage') | float) }}"  # Solar current calculation
+
+# Battery current (A)
+- platform: rest
+  name: "Victron Battery Current"
+  resource: "https://vrmapi.victronenergy.com/v2/installations/{installation_id}/widgets/Graph?attributeIds%5B%5D=82&instance=291"
+  headers:
+    Content-Type: "application/json"
+    x-authorization: "Token {your_token_here}"
+  value_template: "{{ value_json.records.data['82'][-1][1] }}"  # Extracts the latest value of the timeseries
+  unit_of_measurement: "A"
+  scan_interval: 60
+
+# Battery voltage (V)
+- platform: rest
+  name: "Victron Battery Voltage"
+  resource: "https://vrmapi.victronenergy.com/v2/installations/{installation_id}/widgets/Graph?attributeIds%5B%5D=81&instance=291"
+  headers:
+    Content-Type: "application/json"
+    x-authorization: "Token {your_token_here}"
+  value_template: "{{ value_json.records.data['81'][-1][1] }}"  # Extracts the latest value of the timeseries
+  unit_of_measurement: "V"
+  scan_interval: 60
+
+# Battery state (interprets values)
+- platform: rest
+  name: "Victron Battery State"
+  resource: "https://vrmapi.victronenergy.com/v2/installations/{installation_id}/widgets/Graph?attributeIds%5B%5D=85&instance=291"
+  headers:
+    Content-Type: "application/json"
+    x-authorization: "Token {your_token_here}"
+  value_template: >
+    {% set state_value = value_json.records.data['85'][-1][1] %}
+    {% if state_value == 0 %}
+      Off
+    {% elif state_value == 2 %}
+      Fault
+    {% elif state_value == 3 %}
+      Bulk
+    {% elif state_value == 4 %}
+      Absorption
+    {% elif state_value == 5 %}
+      Float
+    {% elif state_value == 6 %}
+      Storage
+    {% elif state_value == 7 %}
+      Equalize
+    {% elif state_value == 245 %}
+      Off
+    {% elif state_value == 247 %}
+      Equalize
+    {% elif state_value == 252 %}
+      Ext. Control
+    {% else %}
+      Unknown
+    {% endif %}
+  scan_interval: 60
+
+# Battery power (W) - Calculated as Battery Voltage * Battery Current
+- platform: template
+  sensors:
+    victron_battery_power:
+      friendly_name: "Victron Battery Power"
+      unit_of_measurement: "W"
+      value_template: "{{ (states('sensor.victron_battery_voltage') | float) * (states('sensor.victron_battery_current') | float) }}"  # Battery power calculation
+
+# Load power (W) - Calculated as Load Voltage * Load Current
+- platform: template
+  sensors:
+    victron_load_power:
+      friendly_name: "Victron Load Power"
+      unit_of_measurement: "W"
+      value_template: "{{ (states('sensor.victron_battery_voltage') | float) * (states('sensor.victron_load_current') | float) }}"  # Load power calculation
+
+# Load voltage (V) (if available)
+- platform: rest
+  name: "Victron Load Voltage"
+  resource: "https://vrmapi.victronenergy.com/v2/installations/{installation_id}/widgets/Graph?attributeIds%5B%5D=81&instance=291"
+  headers:
+    Content-Type: "application/json"
+    x-authorization: "Token {your_token_here}"
+  value_template: "{{ value_json.records.data['81'][-1][1] }}"  # Extracts the latest value of the timeseries
+  unit_of_measurement: "V"
+  scan_interval: 60
+
+# Load current (A) (if available)
+- platform: rest
+  name: "Victron Load Current"
+  resource: "https://vrmapi.victronenergy.com/v2/installations/{installation_id}/widgets/Graph?attributeIds%5B%5D=242&instance=291"
+  headers:
+    Content-Type: "application/json"
+    x-authorization: "Token {your_token_here}"
+  value_template: "{{ value_json.records.data['242'][-1][1] }}"  # Extracts the latest value of the timeseries
+  unit_of_measurement: "A"
+  scan_interval: 60
+
+# Load state
+- platform: rest
+  name: "Victron Load State"
+  resource: "https://vrmapi.victronenergy.com/v2/installations/{installation_id}/widgets/Graph?attributeIds%5B%5D=241&instance=291"
+  headers:
+    Content-Type: "application/json"
+    x-authorization: "Token {your_token_here}"
+  value_template: >
+    {% set state_value = value_json.records.data['241'] %}
+    {% if state_value %}
+      {% set state = state_value[-1][1] %}
+      {% if state == 0 %}
+        Off
+      {% elif state == 1 %}
+        On
+      {% elif state == 2 %}
+        Fault
+      {% else %}
+        Unknown
+      {% endif %}
+    {% else %}
+      "No Data"
+    {% endif %}
+  scan_interval: 60
+
+# Energy today (kWh)
+- platform: rest
+  name: "Victron Solar Energy Today"
+  resource: "https://vrmapi.victronenergy.com/v2/installations/{installation_id}/widgets/Graph?attributeIds%5B%5D=94&instance=291"
+  headers:
+    Content-Type: "application/json"
+    x-authorization: "Token {your_token_here}"
+  value_template: "{{ value_json.records.data['94'][-1][1] }}"  # Solar energy produced today (kWh)
+  unit_of_measurement: "kWh"
+  scan_interval: 3600  # Update every hour
+
+# Template sensor for energy consumed (kWh)
+- platform: template
+  sensors:
+    victron_energy_consumed:
+      friendly_name: "Victron Energy Consumed"
+      unit_of_measurement: "kWh"
+      value_template: "{{ (states('sensor.victron_battery_power') | float) / 1000 }}"  # Consumed energy in kWh
+
+
+sensor:
+  # Battery current sensor
+  - platform: template
+    sensors:
+      # Estimate battery capacity sensor
+      victron_battery_capacity_estimate:
+        friendly_name: "Victron Battery Capacity Estimate"
+        unit_of_measurement: "mAh"
+        value_template: >
+          {% set current = states('sensor.victron_battery_current') | float %}
+          {% set voltage = states('sensor.victron_battery_voltage') | float %}
+          {% set charge_time = 1 %}  # Assume each cycle lasts 1 hour, adjust this value
+          {% set energy_wh = current * voltage * charge_time %}
+          {% set capacity_mah = (energy_wh * 1000) / voltage %}
+          {{ capacity_mah | round(0) }}
+
+      # Average current over the last 24 hours
+      victron_battery_current_24h:
+        friendly_name: "Victron Battery Current Average 24h"
+        unit_of_measurement: "A"
+        value_template: >
+          {% set history = state_attr('sensor.victron_battery_current', 'history') %}
+          {% set avg_current = history | selectattr('state', 'defined') | map(attribute='state') | map('float') | list %}
+          {% set avg = avg_current | sum / avg_current | length %}
+          {{ avg | round(2) }}
+
+      # Average voltage over the last 24 hours
+      victron_battery_voltage_24h:
+        friendly_name: "Victron Battery Voltage Average 24h"
+        unit_of_measurement: "V"
+        value_template: >
+          {% set history = state_attr('sensor.victron_battery_voltage', 'history') %}
+          {% set avg_voltage = history | selectattr('state', 'defined') | map(attribute='state') | map('float') | list %}
+          {% set avg = avg_voltage | sum / avg_voltage | length %}
+          {{ avg | round(2) }}
+
+ # Sensor for monitoring energy consumed by the battery
+  - platform: history_stats
+    name: "Victron Energy Consumed 24h"
+    entity_id: sensor.victron_battery_current
+    state: "on"   # If you want to calculate the time the sensor was 'on'
+    type: time    # Calculates time within the defined period
+    start: "{{ now().replace(hour=0, minute=0, second=0) }}"   # Start of the day (00:00)
+    end: "{{ now() }}"  # Until now
+
+
+energy:
+  sources:
+    - sensor.victron_solar_energy_today  # Energy produced by solar panels
+  consumption:
+    - sensor.victron_energy_consumed  # Energy consumed by the battery
+  production:
+    - sensor.victron_solar_energy_today  # Energy produced by the solar panels
