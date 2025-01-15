@@ -17,4 +17,8 @@ curl --request GET \
   --url 'https://vrmapi.victronenergy.com/v2/installations/{installation_id}/widgets/Graph?attributeIds%5B%5D={attribute_id}&instance={instance_id}' \
   --header 'Content-Type: application/json' \
   --header 'x-authorization: Token {your_token_here}'
+```
+
+WHERE IT STARDED
+https://community.victronenergy.com/t/api-rest-values-mapping/9430
 
