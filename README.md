@@ -20,9 +20,13 @@ curl --request GET \
 ```
 
 ## Home Assistant integration
-I shared my anonimized configuration.yaml. if you want to use its content you have to configure the site id and your token. you have also to modify the device number (in most case on mine file is 291) to match the number on victron vrm-> device list. here appear all devices connected with an instance number.
-i mostly used chatgpt to compile the configuration files, not without trouble and timewaste but it managed to sort out a working config. Maybe you are not interested on all measures, and there are no warranty to work so manage to add a piece at time and test it.
-the configuration will generate a sensot thet you can point from HA to display on widgets.
+I’ve shared my anonymized configuration.yaml file. If you want to use it, you’ll need to:
+1. Set your site ID and token.
+2. Adjust the device number (in my case, it’s mostly set to 291) to match the one shown in the Victron VRM portal → Device List. There, each connected device has a specific instance number.
+
+I used ChatGPT to help generate the configuration. It wasn’t without its challenges and time-consuming tweaks, but in the end it produced a working setup.
+You might not be interested in monitoring all the metrics I included, and there’s no guarantee that everything will work out-of-the-box, so I suggest adding one part at a time and testing as you go.
+The configuration creates sensors that you can then use in Home Assistant to display data via widgets.
 
 WHERE IT STARDED
 https://community.victronenergy.com/t/api-rest-values-mapping/9430
