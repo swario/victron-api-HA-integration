@@ -19,6 +19,10 @@ curl --request GET \
   --header 'x-authorization: Token {your_token_here}'
 ```
 
+## Home Assistant integration
+I shared my anonimized configuration.yaml. if you want to use its content you have to configure the site id and your token. you have also to modify the device number (in most case on mine file is 291) to match the number on victron vrm-> device list. here appear all devices connected with an instance number.
+i mostly used chatgpt to compile the configuration files, not without trouble and timewaste but it managed to sort out a working config 
+
 WHERE IT STARDED
 https://community.victronenergy.com/t/api-rest-values-mapping/9430
 
