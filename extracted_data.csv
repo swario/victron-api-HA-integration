@@ -1,0 +1,3401 @@
+attribute_id,dispositivi_compatibili,raw_value,formatted_value,sample_values,axisGroup,code,description,formatValueOnly,formatWithUnit
+1,,,,N/A,,d,gatewayID,%s,%s
+2,,,,N/A,,v,Fw Version,%s,%s
+3,,,,N/A,,build,Fw Build date,%s,%s
+4,,,,N/A,,lt,Latitude,%.5F,%.5F LAT
+5,,,,N/A,,lg,Longitude,%.5F,%.5F LNG
+6,Inverter,,,1754310466:1170216; 1754310526:1170216; 1754311786:1170216; 1754311846:1170216; 1754311906:1170216,,vmk2,mk2 version,%s,%s
+7,,,,N/A,,vvt,VE.Bus device,%s,%s
+8,Inverter,,,1754310469:0; 1754310529:0; 1754310589:0; 1754310649:0; 1754310709:0,AC Voltage,IV1,Input voltage phase 1,%.1F,%.1F V
+9,,,,N/A,AC Voltage,IV2,Input voltage phase 2,%.1F,%.1F V
+10,,,,N/A,AC Voltage,IV3,Input voltage phase 3,%.1F,%.1F V
+11,Inverter,,,1754310472:0; 1754310532:0; 1754310592:0; 1754310652:0; 1754310712:0,,II1,Input current phase 1,%.1F,%.1F A
+12,,,,N/A,,II2,Input current phase 2,%.1F,%.1F A
+13,,,,N/A,,II3,Input current phase 3,%.1F,%.1F A
+14,Inverter,,,1754310474:0; 1754310534:0; 1754310594:0; 1754310654:0; 1754310714:0,,IF1,Input frequency 1,%.2F,%.2F Hz
+15,,,,N/A,,IF2,Input frequency 2,%.2F,%.2F Hz
+16,,,,N/A,,IF3,Input frequency 3,%.2F,%.2F Hz
+17,Inverter,,,1754310477:0; 1754310537:0; 1754310597:0; 1754310657:0; 1754310717:0,,IP1,Input power 1,%.0F,%.0F W
+18,,,,N/A,,IP2,Input power 2,%.0F,%.0F W
+19,,,,N/A,,IP3,Input power 3,%.0F,%.0F W
+20,Inverter,,,1754310480:0; 1754310540:0; 1754310600:0; 1754310660:0; 1754310720:0,AC Voltage,OV1,Output voltage phase 1,%.1F,%.1F V
+21,,,,N/A,AC Voltage,OV2,Output voltage phase 2,%.1F,%.1F V
+22,,,,N/A,AC Voltage,OV3,Output voltage phase 3,%.1F,%.1F V
+23,Inverter,,,1754310483:0; 1754310543:0; 1754310603:0; 1754310663:0; 1754310723:0,,OI1,Output current phase 1,%.1F,%.1F A
+24,,,,N/A,,OI2,Output current phase 2,%.1F,%.1F A
+25,,,,N/A,,OI3,Output current phase 3,%.1F,%.1F A
+26,Inverter,,,1754310488:50; 1754310548:50.1; 1754310608:50; 1754310668:50; 1754310728:50,,OF,Output frequency,%.1F,%.1F Hz
+27,Inverter,,,1754310489:3.7; 1754310549:3.7; 1754310609:3; 1754310669:3.7; 1754310729:3.7,,AILIM,Active input current limit,%.2F,%.2F A
+28,,,,N/A,N/A,N/A,N/A,N/A,N/A
+29,Inverter,,,1754310493:0; 1754310553:0; 1754310613:0; 1754310673:0; 1754310733:0,,OP1,Output power 1,%.0F,%.0F W
+30,,,,N/A,,OP2,Output power 2,%.0F,%.0F W
+31,,,,N/A,,OP3,Output power 3,%.0F,%.0F W
+32,Inverter,,,1754310497:52.65; 1754310557:52.66; 1754310617:52.65; 1754310677:52.66; 1754310737:52.66,Battery Voltage,CV,Voltage,%.2F,%.2F V
+33,Inverter,,,1754310498:0; 1754310558:0; 1754310618:0; 1754310678:0; 1754310738:0,,CI,Current,%.1F,%.1F A
+34,Inverter,,,1754310499:1; 1754311759:1; 1754311819:1; 1754311879:1; 1754313139:1,,PC,Phase count,%d,%d
+35,Inverter,,,1754310500:240; 1754310560:240; 1754310620:240; 1754310680:240; 1754310740:240,,AI,Active input,%s,%s
+36,,,,N/A,,AA,Auxiliary output active,%s,%s
+37,,,,N/A,,LD,LEDs (?),%d,%d
+38,,,,N/A,,LDB,LEDs Blinking (?),%d,%d
+39,,,,N/A,Percetange,VSOC,VE.Bus state of charge,%.0F,%.0F %%
+40,Inverter,,,1754310506:0; 1754310566:0; 1754310626:0; 1754310686:0; 1754310746:0,,S,VE.Bus state,%s,%s
+41,Inverter,,,1754310508:0; 1754310568:0; 1754310628:0; 1754310688:0; 1754310748:0,,ERR,VE.Bus Error,%s,%s
+42,Inverter,,,1754310509:0; 1754310569:0; 1754310629:0; 1754310689:0; 1754310749:0,,eT,Temperature,%s,%s
+43,Inverter,,,1754310511:2; 1754310571:2; 1754310631:2; 1754310691:2; 1754310751:2,,eL,Low battery,%s,%s
+44,Inverter,,,1754310512:0; 1754310572:0; 1754310632:0; 1754310692:0; 1754310752:0,,eO,Overload,%s,%s
+45,"BMS, Batteria",,,1754308894:0; 1754309974:0; 1754310094:0; 1754310514:0; 1754311834:0,,BM,Model,%s,%s
+46,"BMS, Batteria",,,1754308896:0; 1754309916:0; 1754309976:0; 1754310096:0; 1754310516:0,,BV,Firmware version,%s,%s
+47,"BMS, Batteria",,,1754254597:13.3; 1754254657:13.3; 1754254717:13.3; 1754254777:13.3; 1754254837:13.3,Battery Voltage,V,Voltage,%.2F,%.2F V
+48,,,,N/A,,VS,Starter battery voltage,%.2F,%.2F V
+49,"BMS, Batteria",,,1754254600:-0.5; 1754254660:-0.5; 1754254720:-0.5; 1754254780:-0.5; 1754254840:-0.5,Battery Current,I,Current,%.2F,%.2F A
+50,"BMS, Batteria",,,1754254601:-4.4; 1754254661:-4.4; 1754254721:-4.4; 1754254781:-4.4; 1754254841:-4.4,,CE,Consumed Amphours,%.2F,%.2F Ah
+51,"BMS, Batteria",,,1754254604:96.8; 1754254664:96.7; 1754254724:96.7; 1754254784:96.7; 1754254844:96.7,Percetange,SOC,State of charge,%.1F,%.1F %%
+52,"BMS, Batteria",,,1754254605:197.03; 1754254665:198.5; 1754254725:198.58; 1754254785:198; 1754254845:198.32,,TTG,Time to go,%.2F,%.2F h
+53,,,,N/A,,Alarm,Alarm,%s,%s
+54,,,,N/A,,Relay,Relay status,%s,%s
+55,Batteria,,,1754308850:-120.1; 1754309930:-120.1; 1754310110:-120.1; 1754310470:-120.1; 1754310530:-120.1,,H1,Deepest discharge,%.2F,%.2F Ah
+56,Batteria,,,1754308853:-19.5; 1754309933:-19.5; 1754310113:-19.5; 1754310473:-19.5; 1754311853:-19.5,,H2,Last discharge,%.2F,%.2F Ah
+57,Batteria,,,1754308855:-69; 1754309935:-69; 1754310115:-69; 1754310475:-69; 1754311855:-69,,H3,Average discharge,%.2F,%.2F Ah
+58,"BMS, Batteria",,,1754308857:12; 1754309937:12; 1754310117:12; 1754310477:12; 1754311857:12,,H4,Charge cycles,%.2F,%.2F
+59,Batteria,,,1754308860:1; 1754309940:1; 1754310120:1; 1754310480:1; 1754311860:1,,H5,Full discharges,%.2F,%.2F
+60,Batteria,,,1754254683:-2566.2; 1754255343:-2566.3; 1754256063:-2566.4; 1754256723:-2566.5; 1754257443:-2566.6,,H6,Total Ah drawn,%.2F,%.2F Ah
+61,Batteria,,,1754308865:11.76; 1754309945:11.76; 1754310125:11.76; 1754310485:11.76; 1754311865:11.76,,H7,Minimum voltage,%.2F,%.2F V
+62,Batteria,,,1754308867:14.71; 1754309947:14.71; 1754310127:14.71; 1754310487:14.71; 1754311867:14.71,,H8,Maximum voltage,%.2F,%.2F V
+63,Batteria,,,1754254629:2.34; 1754254689:2.34; 1754254749:2.34; 1754254809:2.34; 1754254869:2.34,,H9,Time since last full charge,%.2F,%.2F
+64,Batteria,,,1754308872:23; 1754309952:23; 1754310072:23; 1754310492:23; 1754311872:23,,H10,Automatic syncs,%.2F,%.2F
+65,Batteria,,,1754308874:1; 1754309954:1; 1754310074:1; 1754310494:1; 1754311874:1,,H11,Low voltage alarms,%.2F,%.2F
+66,Batteria,,,1754308876:0; 1754309956:0; 1754310076:0; 1754310496:0; 1754311876:0,,H12,High voltage alarms,%.2F,%.2F
+67,,,,N/A,,H13,Low starter voltage alarms,%.2F,%.2F
+68,,,,N/A,,H14,High starter voltage alarms,%.2F,%.2F
+69,Batteria,,,1754308882:-0.01; 1754309962:-0.01; 1754310082:-0.01; 1754310502:-0.01; 1754311822:-0.01,,H15,Minimum starter voltage,%.2F,%.2F V
+70,Batteria,,,1754308884:0; 1754309964:0; 1754310084:0; 1754310504:0; 1754311824:0,,H16,Maximum starter voltage,%.2F,%.2F V
+71,,,,N/A,,IN1,Input 1,%s,%s
+72,,,,N/A,,IN2,Input 2,%s,%s
+73,,,,N/A,,IN3,Input 3,%s,%s
+74,,,,N/A,,T1,Temperature,%.2F,%.2F °C
+75,,,,N/A,,OUT1,Output 1,%s,%s
+76,,,,N/A,,OUT2,Output 2,%s,%s
+77,,,,N/A,,FL,Fluid Level,%d,%d
+78,,,,N/A,,FTTG,Fluid Time to Go,%d,%d
+79,Inverter,,,1754310460:3; 1754310520:3; 1754310580:3; 1754310640:3; 1754310700:3,,s,Switch Position,%s,%s
+80,MPPT,,,1754308903:0; 1754309923:0; 1754310103:0; 1754310463:0; 1754310523:0,,ScVt,Solar charger version,%s,%s
+81,MPPT,,,1754254665:13.3; 1754254725:13.3; 1754254785:13.3; 1754254845:13.3; 1754254905:13.3,Battery Voltage,ScV,Voltage,%.2F,%.1F V
+82,MPPT,,,1754254667:0; 1754254727:0; 1754254787:0; 1754254847:0; 1754254907:0,Battery Current,ScI,Current,%.1F,%.1F A
+83,,,,N/A,,ScT,Battery temperature,%.1F,%.1F °C
+84,MPPT,,,1754254671:1; 1754254731:1; 1754254791:1; 1754254851:1; 1754254911:1,,Scs,Charger on/off,%s,%s
+85,MPPT,,,1754254674:0; 1754254734:0; 1754254794:0; 1754254854:0; 1754254914:0,,ScS,Charge state,%s,%s
+86,MPPT,,,1754254676:3.61; 1754254736:3.61; 1754254796:3.61; 1754254856:3.64; 1754254916:3.61,PV Voltage,PVV,PV voltage,%.2F,%.1F V
+87,,,,N/A,,PVI,PV current,%.1F,%.1F A
+88,,,,N/A,,EqP,Equalization pending,%s,%s
+89,,,,N/A,,EqT,Equalization time remaining,%.0F,%.0F
+90,,,,N/A,,SRelay,Relay on the charger,%s,%s
+91,,,,N/A,,SceA_unused,Alarm condition,%s,%s
+92,,,,N/A,,SceL,Low batt. voltage alarm,%s,%s
+93,,,,N/A,,SceH,High batt. voltage alarm,%s,%s
+94,MPPT,,,1754254693:0.02; 1754254753:0.02; 1754254813:0.02; 1754254873:0.02; 1754254933:0.02,,YT,Yield today,%.2F,%.2F kWh
+95,MPPT,,,1754254695:3; 1754254755:3; 1754254815:3; 1754254875:3; 1754254935:3,,MCPT,Maximum charge power today,%d,%d W
+96,MPPT,,,1754254697:0.02; 1754254757:0.02; 1754254817:0.02; 1754254877:0.02; 1754254937:0.02,,YY,Yield yesterday,%.2F,%.2F kWh
+97,MPPT,,,1754254700:9; 1754254760:9; 1754254820:9; 1754254880:9; 1754254940:9,,MCPY,Maximum charge power yesterday,%d,%d W
+98,MPPT,,,1754254703:0; 1754254763:0; 1754254823:0; 1754254883:0; 1754254943:0,,ScERR,Error code,%s,%s
+99,,,,N/A,,Pt,Solar Yield (delta),%.2F,%.2F kWh
+100,,,,N/A,,Gb,Grid to battery,%.2F,%.2F kWh
+101,,,,N/A,,Gc,Grid to consumers,%.2F,%.2F kWh
+102,,,,N/A,,Pb,PV to battery,%.2F,%.2F kWh
+103,,,,N/A,,Pg,PV to grid,%.2F,%.2F kWh
+104,,,,N/A,,Pc,PV to consumers,%.2F,%.2F kWh
+105,,,,N/A,,Bc,Battery to consumers,%.2F,%.2F kWh
+106,MPPT,,,1754308902:0; 1754309922:0; 1754309982:0; 1754310102:0; 1754310462:0,,ScM,Solarcharger model,%s,%s
+107,MPPT,,,1754254725:0; 1754254785:0; 1754254845:0; 1754254905:0; 1754254965:0,,ScW,Battery watts,%.0F,%.0F W
+108,,,,N/A,,Bg,Battery to grid,%.2F,%.2F kWh
+109,,,,N/A,,gc,Genset to consumers,%.2F,%.2F kWh
+110,,,,N/A,,gb,Genset to battery,%.2F,%.2F kWh
+111,,,,N/A,,P,PV - AC-coupled on output L1,%.0F,%.0F W
+112,,,,N/A,,Pi,PV - AC-coupled on input L1,%.0F,%.0F W
+113,,,,N/A,,Pdc,PV - DC-coupled,%.0F,%.0F W
+114,"BMS, Batteria",,,1754308862:0; 1754309942:0; 1754310122:0; 1754310482:0; 1754311862:0,,BSN,Serial Number,%s,%s
+115,BMS,,,1754254746:31; 1754254806:31; 1754254866:31; 1754254926:31; 1754254986:31,,BT,Battery temperature,%.0F,%.0F °C
+116,,,,N/A,Battery Voltage,VM,Mid-point voltage of the battery bank,%.2F,%.2F V
+117,,,,N/A,Percetange,VMD,Mid-point deviation of the battery bank,%.1F,%.1F %%
+118,MPPT,,,1754308873:0; 1754309953:0; 1754310073:0; 1754310133:0; 1754310493:0,,ScSN,Solar charger serial number,%s,%s
+119,"BMS, Batteria",,,1754254756:0; 1754254816:0; 1754254876:0; 1754254936:0; 1754254996:0,,AL,Low voltage alarm,%s,%s
+120,"BMS, Batteria",,,1754254759:0; 1754254819:0; 1754254879:0; 1754254939:0; 1754254999:0,,AH,High voltage alarm,%s,%s
+121,Batteria,,,1754254762:0; 1754254822:0; 1754254882:0; 1754254942:0; 1754255002:0,,ALS,Low starter-voltage alarm,%s,%s
+122,Batteria,,,1754254766:0; 1754254826:0; 1754254886:0; 1754254946:0; 1754255006:0,,AHS,High starter-voltage alarm,%s,%s
+123,"BMS, Batteria",,,1754254769:0; 1754254829:0; 1754254889:0; 1754254949:0; 1754255009:0,,ASoc,Low state-of-charge alarm,%s,%s
+124,"BMS, Batteria",,,1754254772:0; 1754254832:0; 1754254892:0; 1754254952:0; 1754255012:0,,ALT,Low battery temperature alarm,%s,%s
+125,"BMS, Batteria",,,1754254775:0; 1754254835:0; 1754254895:0; 1754254955:0; 1754255015:0,,AHT,High battery temperature alarm,%s,%s
+126,Batteria,,,1754254778:0; 1754254838:0; 1754254898:0; 1754254958:0; 1754255018:0,,AM,Mid-voltage alarm,%s,%s
+127,,,,N/A,,P2,PV - AC-coupled on output L2,%.0F,%.0F W
+128,,,,N/A,,P3,PV - AC-coupled on output L3,%.0F,%.0F W
+129,,,,N/A,,Pi2,PV - AC-coupled on input L2,%.0F,%.0F W
+130,,,,N/A,,Pi3,PV - AC-coupled on input L3,%.0F,%.0F W
+131,,,,N/A,,a1,AC Consumption L1,%.0F,%.0F W
+132,,,,N/A,,a2,AC Consumption L2,%.0F,%.0F W
+133,,,,N/A,,a3,AC Consumption L3,%.0F,%.0F W
+134,,,,N/A,,g1,Grid L1,%.0F,%.0F W
+135,,,,N/A,,g2,Grid L2,%.0F,%.0F W
+136,,,,N/A,,g3,Grid L3,%.0F,%.0F W
+137,,,,N/A,,gs1,Genset L1,%.0F,%.0F W
+138,,,,N/A,,gs2,Genset L2,%.0F,%.0F W
+139,,,,N/A,,gs3,Genset L3,%.0F,%.0F W
+140,,,,N/A,,dc,DC System,%.0F,%.0F W
+141,,,,N/A,,lc,Course,%.0F,%0.F Deg
+142,,,,N/A,,ls,Speed,%.2F,%.2F m/s
+143,,,,N/A,Battery Voltage,bv,Voltage,%.2F,%.2F V
+144,,,,N/A,Percetange,bs,Battery SOC,%.1F,%.1F %%
+145,,,,N/A,,ba,Battery Consumed Amphours,%.2F,%.2F Ah
+146,,,,N/A,,bt,Battery Time to Go,%.2F,%.2F h
+147,,,,N/A,Battery Current,bc,Current,%.2F,%.2F A
+148,,,,N/A,,ipr,Remote ip address,%s,%s
+149,,,,N/A,,ip,Local ip address,%s,%s
+150,,,,N/A,,au,Auto update,%d,%d
+151,,,,N/A,,ut,Update to,%d,%d
+152,,,,N/A,,rs,Remote support port,%.0F,Port %.0F
+153,,,,N/A,Battery Current,vc,VE.Bus charge current,%.1F,%.1F A
+154,,,,N/A,,rss,Remote support,%s,%s
+155,,,,N/A,,ALF,Low fused-voltage alarm,%s,%s
+156,,,,N/A,,AHF,High fused-voltage alarm,%s,%s
+157,,,,N/A,,AFB,Fuse blown alarm,%s,%s
+158,BMS,,,1754254882:0; 1754254942:0; 1754255002:0; 1754255062:0; 1754255122:0,,AHIT,High internal-temperature alarm,%s,%s
+159,,,,N/A,,H17,Low fused-voltage alarms,%.0F,%.0F
+160,,,,N/A,,H18,High fused-voltage alarms,%.0F,%.0F
+161,,,,N/A,,H19,Minimum fused voltage,%.2F,%.2F
+162,,,,N/A,,H20,Maximum fused voltage,%.2F,%.2F
+163,,,,N/A,,liM,BMS Model,%s,%s
+164,,,,N/A,,liV,BMS Firmware version,%s,%s
+165,BMS,,,1754254906:9; 1754254966:9; 1754255026:9; 1754255086:9; 1754255146:9,,liS,State,%s,%s
+166,,,,N/A,,liE,Error,%s,%s
+167,,,,N/A,,Sw,System-switch,%s,%s
+168,BMS,,,1754254919:0; 1754254979:0; 1754255039:0; 1754255099:0; 1754255159:0,,B,Balancing,%s,%s
+169,,,,N/A,,nB,System; number of batteries,%.0F,%.0F
+170,,,,N/A,,BP,System; batteries parallel,%.0F,%.0F
+171,,,,N/A,,BS,System; batteries series,%.0F,%.0F
+172,BMS,,,1754308874:16; 1754309954:16; 1754310074:16; 1754310494:16; 1754311814:16,,NrC,System; number of cells per battery,%.0F,%.0F
+173,BMS,,,1754254938:3.29; 1754254998:3.28; 1754255058:3.29; 1754255118:3.28; 1754255178:3.28,,mcV,Minimum cell voltage,%.2F,%.2F V
+174,BMS,,,1754254941:3.29; 1754255001:3.3; 1754255061:3.29; 1754255121:3.3; 1754255181:3.29,,McV,Maximum cell voltage,%.2F,%.2F V
+175,,,,N/A,,Se,Diagnostics; shutdowns due to error,%.0F,%.0F
+176,,,,N/A,,Le1,Diagnostics; 1st last error,%s,%s
+177,,,,N/A,,Le2,Diagnostics; 2nd last error,%s,%s
+178,,,,N/A,,Le3,Diagnostics; 3rd last error,%s,%s
+179,,,,N/A,,Le4,Diagnostics; 4th last error,%s,%s
+180,BMS,,,1754254962:1; 1754255022:1; 1754255082:1; 1754255142:1; 1754255262:1,,aCh,IO; allow to charge,%s,%s
+181,BMS,,,1754254966:1; 1754255026:1; 1754255086:1; 1754255146:1; 1754255206:1,,aD,IO; allow to discharge,%s,%s
+182,,,,N/A,,eRelay,IO; external relay,%s,%s
+183,,,,N/A,,liH1,History; Min cell-voltage,%.2F,%.2F V
+184,,,,N/A,,liH2,History; Max cell-voltage,%.2F,%.2FV
+185,,,,N/A,,mPr,Modem present,%s,%s
+186,,,,N/A,,mRd,Modem last reboot date time,%s,%s
+187,,,,N/A,,mS,Network status,%s,%s
+188,,,,N/A,,mN,Network name,%s,%s
+189,,,,N/A,Percetange,mSt,Signal strength,%.0F,%.0F %%
+190,,,,N/A,,mRA,Roaming allowed,%s,%s
+191,,,,N/A,,mSimPr,Sim-card present,%s,%s
+192,,,,N/A,,mSimPi,Sim pin required,%s,%s
+193,,,,N/A,,mRs,Modem reset reason,%s,%s
+194,,,,N/A,,mr,Motor RPM,%.0F,%.0F
+195,,,,N/A,,mt,Motor temperature,%.0F,%.0F °C
+196,,,,N/A,,coV,Controller DC Voltage,%.1F,%.1F V
+197,,,,N/A,,coC,Controller DC Current,%.1F,%.1F A
+198,,,,N/A,,coP,Controller DC Power,%.1F,%.1F W
+199,,,,N/A,,coT,Controller Temperature,%.0F,%.0F °C
+200,,,,N/A,,pM,PV Inverter Model,%s,%s
+201,,,,N/A,,pV,PV Inverter Fw version,%s,%s
+202,,,,N/A,,pL,Position,%s,%s
+203,,,,N/A,AC Voltage,pV1,L1 Voltage,%.1F,%.1F V
+204,,,,N/A,,pI1,L1 Current,%.2F,%.2F A
+205,,,,N/A,,pP1,L1 Power,%.0F,%.0F W
+206,,,,N/A,,pE1,L1 Energy,%.2F,%.2F kWh
+207,,,,N/A,AC Voltage,pV2,L2 Voltage,%.1F,%.1F V
+208,,,,N/A,,pI2,L2 Current,%.2F,%.2F A
+209,,,,N/A,,pP2,L2 Power,%.0F,%.0F W
+210,,,,N/A,,pE2,L2 Energy,%.2F,%.2F kWh
+211,,,,N/A,AC Voltage,pV3,L3 Voltage,%.1F,%.1F V
+212,,,,N/A,,pI3,L3 Current,%.2F,%.2F A
+213,,,,N/A,,pP3,L3 Power,%.0F,%.0F W
+214,,,,N/A,,pE3,L3 Energy,%.2F,%.2F kWh
+215,,,,N/A,,bst,Battery state,%s,%s
+216,,,,N/A,,TO,VRM Log time offset,%d,%d s
+217,,,,N/A,,cP,Charger model,%s,%s
+218,,,,N/A,,cF,Charger version,%s,%s
+219,,,,N/A,,cS,Charger serial number,%s,%s
+220,,,,N/A,Battery Voltage,c0V,Output 1 - voltage,%.2F,%.2F V
+221,,,,N/A,,c0I,Output 1 - current,%.1F,%.1F A
+222,,,,N/A,,c0T,Output 1 - temperature,%.0F,%.0F °C
+223,,,,N/A,Battery Voltage,c1V,Output 2 - voltage,%.2F,%.2F V
+224,,,,N/A,,c1I,Output 2 - current,%.1F,%.1F A
+225,,,,N/A,Battery Voltage,c2V,Output 3 - voltage,%.2F,%.2F V
+226,,,,N/A,,c2I,Output 3 - current,%.1F,%.1F A
+227,,,,N/A,,cI,AC Current,%.0F,%.0F A
+228,,,,N/A,,cPo,AC Power,%.0F,%.0F W
+229,,,,N/A,,cIl,AC Current limit,%.0F,%.0F A
+230,,,,N/A,,cM,Charger on/off,%s,%s
+231,,,,N/A,,cSt,Charge state,%s,%s
+232,,,,N/A,,cE,Error,%s,%s
+233,,,,N/A,,cR,Relay on the charger,%s,%s
+234,,,,N/A,N/A,N/A,N/A,N/A,N/A
+235,,,,N/A,,cAl,Low voltage alarm,%s,%s
+236,,,,N/A,,cAh,High voltage alarm,%s,%s
+237,,,,N/A,,w,Boot type,%s,%s
+238,,,,N/A,,tx,Network traffic tx,%d,%d B
+239,,,,N/A,,rx,Network traffic rx,%d,%d B
+240,,,,N/A,Percetange,VSH,VE.Bus hidden SOC,%.1F,%.1F %%
+241,MPPT,,,1754255200:0; 1754255260:0; 1754255320:0; 1754255380:0; 1754255440:0,,SLs,Load state,%s,%s
+242,MPPT,,,1754255204:0; 1754255264:0; 1754255324:0; 1754255384:0; 1754255444:0,,SLI,Load current,%.1F,%.1F A
+243,,,,N/A,,bp,Battery Power,%F,%.0F W
+244,Batteria,,,1754294231:34.05; 1754308871:34.05; 1754309051:34.06; 1754309951:34.06; 1754310071:34.06,,H21,Discharged Energy,%.2F,%.2F kWh
+245,Batteria,,,1754295555:34.59; 1754295855:34.6; 1754296155:34.61; 1754296455:34.62; 1754296695:34.63,,H22,Charged Energy,%.2F,%.2F kWh
+246,,,,N/A,,pS,Status,%s,%s
+247,,,,N/A,,pE,Error,%s,%s
+248,,,,N/A,,ps,Serial,%s,%s
+249,,,,N/A,,pF,Fronius device type,%s,%s
+250,,,,N/A,,tw,Two way communication,%s,%s
+251,,,,N/A,,si1,AC Input 1 ,%s,%s
+252,,,,N/A,,si2,AC Input 2,%s,%s
+253,,,,N/A,,shd,Has DC system,%s,%s
+254,,,,N/A,,vp,VE.Bus charge power,%.0F,%.0F W
+255,,,,N/A,,sl,VRM Log interval,%d,%d s
+256,,,,N/A,,vl,VRM Log mode,%s,%s
+257,,,,N/A,,al,User access level,%s,%s
+258,,,,N/A,,mb,Modbus TCP service,%s,%s
+259,,,,N/A,,od,Oceanvolt motor drive service,%s,%s
+260,,,,N/A,,ov,Oceanvolt battery service,%s,%s
+261,,,,N/A,,sb,Battery monitor setting,%s,%s
+262,,,,N/A,,dm,Demo mode,%s,%s
+263,,,,N/A,,abs,Active battery service,%s,%s
+264,Inverter,,,1754310498:556; 1754311758:556; 1754311818:556; 1754311878:556; 1754316678:556,,vvv,VE.Bus firmware version,%s,%s
+265,Inverter,,,1754310501:2629; 1754311761:2629; 1754311821:2629; 1754311881:2629; 1754316681:2629,,vvp,VE.Bus product id,%s,%s
+266,,,,N/A,,tz,Time zone,%s,%s
+267,,,,N/A,,Vp,Remote VNC port,%.0F,Port %.0F
+268,,,,N/A,N/A,N/A,N/A,N/A,N/A
+269,,,,N/A,,Vl,VNC Local,%s,%s
+270,,,,N/A,,Vi,VNC Internet,%s,%s
+271,,,,N/A,,sv,Synchronize VE.Bus SOC,%s,%s
+272,Inverter,,,1754310465:1; 1754310525:1; 1754311785:1; 1754311845:1; 1754311905:1,,vid,VE.Bus ShortIDs,%d,%d
+273,,,,N/A,Percetange,SOH,State of health,%.1F,%.1F %%
+274,BMS,,,1754288815:55.2; 1754288875:55.2; 1754288935:55.2; 1754288995:55.2; 1754289055:55.2,Battery Voltage,mvc,CVL - Charge Voltage Limit,%.1F,%.1F V
+275,,,,N/A,Battery Voltage,mdv,DVL - Discharge Voltage Limit,%.1F,%.1F V
+276,BMS,,,1754288822:40; 1754288882:40; 1754288942:40; 1754289002:40; 1754289062:40,Battery Current,mcc,CCL - Charge Current Limit,%.1F,%.1F A
+277,BMS,,,1754288826:60; 1754288886:60; 1754288946:60; 1754289006:60; 1754289066:60,Battery Current,mdc,DCL - Discharge Current Limit,%.1F,%.1F A
+278,,,,N/A,,fr,Free space rootfs,%d,%d B
+279,,,,N/A,,fd,Data partition free space,%d,%d B
+280,,,,N/A,,aps1,Hub4 power setpoint phase 1,%.0F,%.0F W
+281,,,,N/A,,aps2,Hub4 power setpoint phase 2,%.0F,%.0F W
+282,,,,N/A,,aps3,Hub4 power setpoint phase 3,%.0F,%.0F W
+283,,,,N/A,,H4LS,Hub4 low state of charge,%s,%s
+284,,,,N/A,,H4S,Hub4 sustain,%s,%s
+285,MPPT,,,1754288853:52.59; 1754288913:52.59; 1754288973:52.59; 1754289033:52.59; 1754289093:52.59,,YU,User yield,%.2F,%.2F kWh
+286,BMS,,,1754288859:0; 1754288919:0; 1754288979:0; 1754289039:0; 1754289099:0,,ACI,Cell Imbalance alarm,%s,%s
+287,BMS,,,1754288863:0; 1754288923:0; 1754288983:0; 1754289043:0; 1754289103:0,,AHC,High charge current alarm,%s,%s
+288,BMS,,,1754288867:0; 1754288927:0; 1754288987:0; 1754289047:0; 1754289107:0,,AHD,High discharge current alarm,%s,%s
+289,,,,N/A,,AIE,Internal Failure,%s,%s
+290,,,,N/A,,AZAT,Air temperature sensor failure,%s,%s
+291,,,,N/A,,AZBT,Battery temperature sensor failure,%s,%s
+292,,,,N/A,,AZBP,Bromide pump failure,%s,%s
+293,,,,N/A,,AZEB,Electric board failure,%s,%s
+294,,,,N/A,,AZHT,High temperature alarm,%s,%s
+295,,,,N/A,,AZHV,High voltage alarm,%s,%s
+296,,,,N/A,,AZIF,Internal failure,%s,%s
+297,,,,N/A,,AZL1,Leak 1 trip alarm,%s,%s
+298,,,,N/A,,AZL2,Leak 2 trip alarm,%s,%s
+299,,,,N/A,,AZLS,Leak sensor failure,%s,%s
+300,,,,N/A,N/A,N/A,N/A,N/A,N/A
+301,,,,N/A,N/A,N/A,N/A,N/A,N/A
+302,,,,N/A,,AZOC,Over current alarm,%s,%s
+303,,,,N/A,,AZSH,State of health alarm,%s,%s
+304,,,,N/A,,AZU,Unknown error,%s,%s
+305,,,,N/A,,AZZP,Zinc pump failure,%s,%s
+306,,,,N/A,,cRelay,Relay 1 state,%s,%s
+307,,,,N/A,,lgcb,LG circuit breaker tripped,%s,%s
+308,,,,N/A,,ZID,Product Id,%s,%s
+309,,,,N/A,,ZFV,Firmware version,%s,%s
+310,,,,N/A,,hw,Water heater,%.0F,%.0F W
+311,,,,N/A,,ha,Air heater,%.0F,%.0F W
+312,,,,N/A,,hx,Water heater energy,%.2F,%.2F kWh
+313,,,,N/A,,hb,Air heater energy,%.2F,%.2F kWh
+314,,,,N/A,,dW,Water heating,%.2F,%.2F kWh
+315,,,,N/A,,dA,Air heating,%.2F,%.2F kWh
+316,Inverter,,,1754310501:0; 1754311761:0; 1754311821:0; 1754311881:0; 1754316681:0,,vmc,VE.Bus connection,%s,%s
+317,Inverter,,,1754310504:0; 1754310564:0; 1754310624:0; 1754310684:0; 1754310744:0,,t1,Energy AcIn1 to Inverter,%.2F,%.2F kWh
+318,Inverter,,,1754310508:0; 1754310568:0; 1754310628:0; 1754310688:0; 1754310748:0,,t2,Energy ACIn2 to Inverter,%.2F,%.2F kWh
+319,Inverter,,,1754310512:0; 1754310572:0; 1754310632:0; 1754310692:0; 1754310752:0,,t3,Energy ACIn1 to AcOut,%.2F,%.2F kWh
+320,Inverter,,,1754310516:0; 1754310576:0; 1754310636:0; 1754310696:0; 1754310756:0,,t4,Energy ACIn2 to AcOut,%.2F,%.2F kWh
+321,Inverter,,,1754310520:0; 1754310580:0; 1754310640:0; 1754310700:0; 1754310760:0,,t5,Energy Inverter to AcIn1,%.2F,%.2F kWh
+322,Inverter,,,1754310463:0; 1754310523:0; 1754310583:0; 1754310643:0; 1754310703:0,,t6,Energy Inverter to AcIn2,%.2F,%.2F kWh
+323,Inverter,,,1754310468:0; 1754310528:0; 1754310588:0; 1754310648:0; 1754310708:0,,t7,Energy AcOut to AcIn1,%.2F,%.2F kWh
+324,Inverter,,,1754310472:0; 1754310532:0; 1754310592:0; 1754310652:0; 1754310712:0,,t8,Energy AcOut to AcIn2,%.2F,%.2F kWh
+325,Inverter,,,1754310477:0; 1754310537:0; 1754310597:0; 1754310657:0; 1754310717:0,,t9,Inverter To AcOut,%.2F,%.2F kWh
+326,Inverter,,,1754310481:0; 1754310541:0; 1754310601:0; 1754310661:0; 1754310721:0,,t10,AcOut to Inverter,%.2F,%.2F kWh
+327,,,,N/A,,tv,Firmware version,%s,%s
+328,,,,N/A,,tc,Tank capacity,%.3F,%.3F M3
+329,,,,N/A,,tf,Tank fluid type,%s,%s
+330,,,,N/A,,tl,Tank level,%.0F,%.0F %%
+331,,,,N/A,,tr,Tank remaining fluid,%.3F,%.3F M3
+332,,,,N/A,,H4bs,ESS battery life state,%s,%s
+333,,,,N/A,,H4as,ESS battery life SOC limit,%.1F,%.1F %%
+334,,,,N/A,,H4ms,ESS Minimum SOC (unless grid fails),%.1F,%.1F %%
+335,,,,N/A,,cRelay1,CCGX Relay 2 state,%s,%s
+336,,,,N/A,N/A,N/A,N/A,N/A,N/A
+337,,,,N/A,,vb,VRM buffer mount state,%s,%s
+338,,,,N/A,,dH21,Discharged Energy delta,%.2F,%.2F kWh
+339,,,,N/A,,dH22,Charged Energy delta,%.2F,%.2F kWh
+340,,,,N/A,,dYU,User yield delta,%.2F,%.2F kWh
+341,,,,N/A,,dpE,Energy delta,%.2F,%.2F kWh
+342,,,,N/A,,dgb,Grid Energy from net delta,%.2F,%.2F kWh
+343,,,,N/A,,dgs,Grid Energy to net delta,%.2F,%.2F kWh
+344,Inverter,,,1754310486:0; 1754310546:0; 1754310606:0; 1754310666:0; 1754310726:0,,eT1,Temperature L1,%s,%s
+345,Inverter,,,1754310489:2; 1754310549:2; 1754310609:2; 1754310669:2; 1754310729:2,,eL1,Low battery L1,%s,%s
+346,Inverter,,,1754310493:0; 1754310553:0; 1754310613:0; 1754310673:0; 1754310733:0,,eO1,Overload L1,%s,%s
+347,Inverter,,,1754310497:0; 1754310557:0; 1754310617:0; 1754310677:0; 1754310737:0,,eR1,High DC Ripple L1,%s,%s
+348,Inverter,,,1754310501:0; 1754310561:0; 1754310621:0; 1754310681:0; 1754310741:0,,eT2,Temperature L2,%s,%s
+349,Inverter,,,1754310506:0; 1754310566:0; 1754310626:0; 1754310686:0; 1754310746:0,,eL2,Low battery L2,%s,%s
+350,Inverter,,,1754310509:0; 1754310569:0; 1754310629:0; 1754310689:0; 1754310749:0,,eO2,Overload L2,%s,%s
+351,Inverter,,,1754310514:0; 1754310574:0; 1754310634:0; 1754310694:0; 1754310754:0,,eR2,High DC Ripple L2,%s,%s
+352,Inverter,,,1754310518:0; 1754310578:0; 1754310638:0; 1754310698:0; 1754310758:0,,eT3,Temperature L3,%s,%s
+353,Inverter,,,1754310522:0; 1754310582:0; 1754310642:0; 1754310702:0; 1754310762:0,,eL3,Low battery L3,%s,%s
+354,Inverter,,,1754310525:0; 1754310585:0; 1754310645:0; 1754310705:0; 1754310765:0,,eO3,Overload L3,%s,%s
+355,Inverter,,,1754310529:0; 1754310589:0; 1754310649:0; 1754310709:0; 1754310769:0,,eR3,High DC Ripple L3,%s,%s
+356,Inverter,,,1754310474:0; 1754311794:0; 1754311854:0; 1754316714:0; 1754316774:0,,pmk2,Mk2 product name,%s,%s
+357,Inverter,,,1754310478:0; 1754311798:0; 1754311858:0; 1754316718:0; 1754316778:0,,asT0,Device 0 assistant list,%s,%s
+358,,,,N/A,,asT1,Device 1 assistant list,%s,%s
+359,,,,N/A,,asT2,Device 2 assistant list,%s,%s
+360,,,,N/A,,asT3,Device 3 assistant list,%s,%s
+361,,,,N/A,,asT4,Device 4 assistant list,%s,%s
+362,,,,N/A,,asT5,Device 5 assistant list,%s,%s
+363,,,,N/A,,asT6,Device 6 assistant list,%s,%s
+364,,,,N/A,,asT7,Device 7 assistant list,%s,%s
+365,,,,N/A,,asT8,Device 8 assistant list,%s,%s
+366,,,,N/A,,asT9,Device 9 assistant list,%s,%s
+367,,,,N/A,,asT10,Device 10 assistant list,%s,%s
+368,,,,N/A,,asT11,Device 11 assistant list,%s,%s
+369,,,,N/A,,asT12,Device 12 assistant list,%s,%s
+370,,,,N/A,,asT13,Device 13 assistant list,%s,%s
+371,,,,N/A,,asT14,Device 14 assistant list,%s,%s
+372,,,,N/A,,mq,MQTT service,%s,%s
+373,,,,N/A,,g1f,Grid L1 - Energy from net,%.2F,%.2F kWh
+374,,,,N/A,,g2f,Grid L2 - Energy from net,%.2F,%.2F kWh
+375,,,,N/A,,g3f,Grid L3 - Energy from net,%.2F,%.2F kWh
+376,,,,N/A,,g1r,Grid L1 - Energy to net,%.2F,%.2F kWh
+377,,,,N/A,,g2r,Grid L2 - Energy to net,%.2F,%.2F kWh
+378,,,,N/A,,g3r,Grid L3 - Energy to net,%.2F,%.2F kWh
+379,,,,N/A,,g1p,Grid L1 - Power,%.0F,%.0F W
+380,,,,N/A,,g2p,Grid L2 - Power,%.0F,%.0F W
+381,,,,N/A,,g3p,Grid L3 - Power,%.0F,%.0F W
+382,,,,N/A,,gP,Grid meter model,%s,%s
+383,,,,N/A,,la1,load avg 1m,%.2f,%.2f
+384,,,,N/A,,la2,load avg 5m,%.2f,%.2f
+385,,,,N/A,,la3,load avg 10m,%.2f,%.2f
+386,,,,N/A,,mi,Productid,%s,%s
+387,,,,N/A,,mn,MachineName,%s,%s
+388,,,,N/A,,dPV,Disable PV inverter,%d,%d
+389,Inverter,,,1754310513:0; 1754310573:0; 1754310633:0; 1754310693:0; 1754310753:0,,eTS,Temperatur sensor alarm,%s,%s
+390,Inverter,,,1754310516:0; 1754310576:0; 1754310636:0; 1754310696:0; 1754310756:0,,eVS,Voltage sensor alarm,%s,%s
+391,,,,N/A,,tP,Product ID,%s,%s
+392,,,,N/A,,vbc,VE.Bus BMS allows battery to be charged,%d,%d
+393,,,,N/A,,vbd,VE.Bus BMS allows battery to be discharged,%d,%d
+394,,,,N/A,,vbx,VE.Bus BMS is expected,%d,%d
+395,,,,N/A,,vbe,VE.Bus BMS error,%d,%d
+396,,,,N/A,Battery Voltage,Hcsp,Charge voltage setpoint,%.2F,%.2F V
+397,,,,N/A,,iOI1,Output current,%.1F,%.1F A
+398,,,,N/A,AC Voltage,iOV1,Output voltage,%.1F,%.1F V
+399,,,,N/A,,iHT,High temperature alarm,%s,%s
+400,,,,N/A,,iHV,High battery voltage alarm,%s,%s
+401,,,,N/A,,iHVA,High AC-Out voltage alarm,%s,%s
+402,,,,N/A,,iLT,Low temperature alarm,%s,%s
+403,,,,N/A,,iLV,Low battery voltage alarm,%s,%s
+404,,,,N/A,,ilVA,Low AC-Out voltage alarm,%s,%s
+405,,,,N/A,,iO,Overload alarm,%s,%s
+406,,,,N/A,,iR,Ripple alarm,%s,%s
+407,,,,N/A,Battery Voltage,i0V,Voltage,%.2F,%.2F V
+408,,,,N/A,,iFV,Firmware version,%s,%s
+409,,,,N/A,,iM,Inverter on/off/eco,%s,%s
+410,,,,N/A,,iP,Inverter model,%s,%s
+411,,,,N/A,,iSN,Inverter serial number,%s,%s
+412,,,,N/A,,iST,Inverter state,%s,%s
+413,BMS,,,1754292709:111; 1754308849:111; 1754309929:111; 1754310109:111; 1754310529:111,,ca,Capacity,%.1F,%.1F Ah
+414,,,,N/A,,GP,Generator model,%s,%s
+415,,,,N/A,,Gv,Firmware version,%s,%s
+416,,,,N/A,,GST,Status,%s,%s
+417,,,,N/A,,GE,Error,%s,%s
+418,,,,N/A,,Gas,Remote start mode,%s,%s
+419,,,,N/A,,Gel,Engine load,%.0F,%.0F %%
+420,,,,N/A,,Ges,Engine speed,%.0F,%.0F RPM
+421,,,,N/A,,Geo,Engine operating hours,%.0F,%.0F s
+422,,,,N/A,,Gct,Engine coolant temperature,%.0F,%.0F °C
+423,,,,N/A,,Gwt,Engine winding temperature,%.0F,%.0F °C
+424,,,,N/A,,Get,Engine exhaust temperature,%.0F,%.0F °C
+425,,,,N/A,,Gsv,Starter voltage,%.2F,%.2F V
+426,,,,N/A,AC Voltage,G1v,Phase 1 voltage,%.1F,%.1F V
+427,,,,N/A,,G1c,Phase 1 current,%.1F,%.1F A
+428,,,,N/A,,G1p,Phase 1 power,%.0F,%.0F W
+429,BMS,,,1754289402:29; 1754289462:29; 1754289522:29; 1754289582:29; 1754289642:29,,mcT,Minimum cell temperature,%.0F,%.0F °C
+430,BMS,,,1754289346:30; 1754289406:30; 1754289466:30; 1754289526:30; 1754289586:30,,McT,Maximum cell temperature,%.0F,%.0F °C
+431,,,,N/A,,G1f,Phase 1 frequency,%.2F,%.2F Hz
+432,,,,N/A,AC Voltage,G2v,Phase 2 voltage,%.1F,%.1F V
+433,,,,N/A,,G2c,Phase 2 current,%.1F,%.1F A
+434,,,,N/A,,G2p,Phase 2 power,%.0F,%.0F W
+435,,,,N/A,,G2f,Phase 2 frequency,%.2F,%.2F Hz
+436,,,,N/A,AC Voltage,G3v,Phase 3 voltage,%.1F,%.1F V
+437,,,,N/A,,G3c,Phase 3 current,%.1F,%.1F A
+438,,,,N/A,,G3p,Phase 3 power,%.0F,%.0F W
+439,,,,N/A,,G3f,Phase 3 frequency,%.2F,%.2F Hz
+440,,,,N/A,,gaNF,Fischer Panda genset not detected at AC-inputess,%s,%s
+441,,,,N/A,,gaNG,Generator not detected at AC-input,%s,%s
+442,MPPT,,,1754289384:0; 1754289444:0; 1754289504:0; 1754289564:0; 1754289624:0,,PVP,PV power,%d,%d W
+443,,,,N/A,,ts,Tank status,%s,%s
+444,,,,N/A,,pLi,Power Limit,%.0F,%.0F W
+445,,,,N/A,,tsP,Product ID,%s,%s
+446,,,,N/A,,tsV,Firmware version,%s,%s
+447,,,,N/A,,tsc,Temperature scale factor,%.1F,%.1F
+448,,,,N/A,,tso,Temperature offset,%.0F,%.0F
+449,,,,N/A,,tst,Temperature type,%s,%s
+450,,,,N/A,Temperature,tsT,Temperature,%.1F,%.1F °C
+451,,,,N/A,,tsS,Temperature status,%s,%s
+452,,,,N/A,N/A,N/A,N/A,N/A,N/A
+453,,,,N/A,,cp,Capabilities,%s,%s
+454,,,,N/A,,bol,DVCC,%s,%s
+455,,,,N/A,,Gu,Gas,%.3F,%.3F m3
+456,,,,N/A,N/A,N/A,N/A,N/A,N/A
+457,,,,N/A,,gm,Gas meter,%.3F,%.3F m3
+458,,,,N/A,,gi,ProductId,%s,%s
+459,BMS,,,1754289445:0; 1754289505:0; 1754289565:0; 1754289625:0; 1754289685:0,,AHCT,High charge temperature alarm,%s,%s
+460,BMS,,,1754289448:0; 1754289508:0; 1754289568:0; 1754289628:0; 1754289688:0,,ALCT,Low charge temperature alarm,%s,%s
+461,,,,N/A,,pmP,Pulse meter product id,%s,%s
+462,,,,N/A,,ma,Pulse meter aggregate,%s,%s
+463,,,,N/A,,mc,Pulse meter count,%.0F,%.0F
+464,,,,N/A,,diP,Digital input product id,%s,%s
+465,,,,N/A,,dia,Digital input alarm,%s,%s
+466,,,,N/A,,dis,Digital input state,%s,%s
+467,,,,N/A,,dic,Digital input count,%.0F,%.0F
+468,,,,N/A,,dit,Digital input type,%s,%s
+469,,,,N/A,,sca,ESS Scheduled Charging,%s,%s
+470,,,,N/A,,hp,Hung processes,%d,%d
+471,,,,N/A,,AIS,AC-Input,%s,%s
+472,,,,N/A,,ssls,#1 Low SOC; discharge disabled,%s,%s
+473,,,,N/A,,ssbl,#2 BatteryLife is active,%s,%s
+474,,,,N/A,,ssdd,#4 Discharge disabled by BMS,%s,%s
+475,,,,N/A,,ssdc,#3 Charge disabled by BMS,%s,%s
+476,,,,N/A,,sssc,#5 Slow charge is active,%s,%s
+477,,,,N/A,,ssuc,#6 Charge disabled by user setting,%s,%s
+478,,,,N/A,,ssud,#7 Discharge disabled by user setting,%s,%s
+479,,,,N/A,,zp,Zombie processes,%s,%s
+480,,,,N/A,,dps,Data partition status,%s,%s
+481,,,,N/A,,rdm,VRM Log ram disk mode,%s,%s
+482,,,,N/A,,e0,Error 11 report - unit 1,%s,%s
+483,,,,N/A,,c0,Error 11 id - unit 1,%s,%s
+484,,,,N/A,,e1,Error 11 report - unit 2,%s,%s
+485,,,,N/A,,c1,Error 11 id - unit 2,%s,%s
+486,,,,N/A,,e2,Error 11 report - unit 3,%s,%s
+487,,,,N/A,,c2,Error 11 id - unit 3,%s,%s
+488,,,,N/A,,e3,Error 11 report - unit 4,%s,%s
+489,,,,N/A,,c3,Error 11 id - unit 4,%s,%s
+490,,,,N/A,,e4,Error 11 report - unit 5,%s,%s
+491,,,,N/A,,c4,Error 11 id - unit 5,%s,%s
+492,,,,N/A,,e5,Error 11 report - unit 6,%s,%s
+493,,,,N/A,,c5,Error 11 id - unit 6,%s,%s
+494,,,,N/A,,e6,Error 11 report - unit 7,%s,%s
+495,,,,N/A,,c6,Error 11 id - unit 7,%s,%s
+496,,,,N/A,,e7,Error 11 report - unit 8,%s,%s
+497,,,,N/A,,c7,Error 11 id - unit 8,%s,%s
+498,,,,N/A,,e8,Error 11 report - unit 9,%s,%s
+499,,,,N/A,,c8,Error 11 id - unit 9,%s,%s
+500,,,,N/A,,e9,Error 11 report - unit 10,%s,%s
+501,,,,N/A,,c9,Error 11 id - unit 10,%s,%s
+502,,,,N/A,,e10,Error 11 report - unit 11,%s,%s
+503,,,,N/A,,c10,Error 11 id - unit 11,%s,%s
+504,,,,N/A,,e11,Error 11 report - unit 12,%s,%s
+505,,,,N/A,,c11,Error 11 id - unit 12,%s,%s
+506,,,,N/A,,e12,Error 11 report - unit 13,%s,%s
+507,,,,N/A,,c12,Error 11 id - unit 13,%s,%s
+508,,,,N/A,,e13,Error 11 report - unit 14,%s,%s
+509,,,,N/A,,c13,Error 11 id - unit 14,%s,%s
+510,,,,N/A,,e14,Error 11 report - unit 15,%s,%s
+511,,,,N/A,,c14,Error 11 id - unit 15,%s,%s
+512,,,,N/A,,e15,Error 11 report - unit 16,%s,%s
+513,,,,N/A,,c15,Error 11 id - unit 16,%s,%s
+514,,,,N/A,,e16,Error 11 report - unit 17,%s,%s
+515,,,,N/A,,c16,Error 11 id - unit 17,%s,%s
+516,,,,N/A,,e17,Error 11 report - unit 18,%s,%s
+517,,,,N/A,,c17,Error 11 id - unit 18,%s,%s
+518,MPPT,,,1754292227:1; 1754292287:1; 1754292347:1; 1754292407:1; 1754292467:1,,ScMm,MPPT State,%s,%s
+519,Inverter,,,1754310528:0; 1754310588:0; 1754310648:0; 1754310708:0; 1754310768:0,,ePR,Phase rotation,%s,%s
+520,,,,N/A,,gaRC,Generator run reason,%s,%s
+521,Inverter,,,1754310470:32; 1754310530:30; 1754310590:30; 1754310650:30; 1754310710:30,,CT,Battery temperature,%.0F,%.0F °C
+522,BMS,,,1754292231:0; 1754292291:0; 1754292351:0; 1754292411:0; 1754292471:0,,ALCV,Low cell voltage,%s,%s
+523,Inverter,,,1754310532:0; 1754310592:0; 1754310652:0; 1754310712:0; 1754310772:0,,eR,High DC Ripple,%s,%s
+524,,,,N/A,,dpi,Product Id,%s,%s
+525,,,,N/A,,df,Firmware version,%s,%s
+526,,,,N/A,,dV,Voltage,%.2F,%.2F V
+527,,,,N/A,,dI,Current,%.2F,%.2F A
+528,,,,N/A,,dP,Power,%.0F,%.0F W
+529,,,,N/A,,dO,Output state,%s,%s
+530,,,,N/A,,de,Error Flags,%s,%s
+531,,,,N/A,,To,Time off,%.2F,%.2F s
+532,,,,N/A,,Tgs,Time generator,%.2F,%.2F s
+533,,,,N/A,,Tg,Time grid,%.2F,%.2F s
+534,,,,N/A,,Ti,Time inverting,%.2F,%.2F s
+535,,,,N/A,,msP,Product Id,%s,%s
+536,,,,N/A,,msI,Solar Irradiance,%.0F ,%.0F W/m²
+537,,,,N/A,,msW,Wind speed,%.2F,%.2F m/s
+538,,,,N/A,,msC,Sensor cell temperature,%.2F,%.2F °C
+539,,,,N/A,,msT,External temperature,%.2F,%.2F °C
+540,,,,N/A,,dE,Energy Total,%.3F,%.3F kWh
+541,,,,N/A,,ddE,Energy - delta,%.4F,%.4F kWh
+542,,,,N/A,N/A,N/A,N/A,N/A,N/A
+543,,,,N/A,,rsIpPort,Remote support IP and port,%s,%s
+544,Inverter,,,1754310488:0; 1754310548:0; 1754310608:0; 1754310668:0; 1754310728:0,,q0,VE.Bus netw. error count - unit 1,%.0F,%.0F
+545,,,,N/A,,q1,VE.Bus netw. error count - unit 2,%.0F,%.0F
+546,,,,N/A,,q2,VE.Bus netw. error count - unit 3,%.0F,%.0F
+547,,,,N/A,,q3,VE.Bus netw. error count - unit 4,%.0F,%.0F
+548,,,,N/A,,q4,VE.Bus netw. error count - unit 5,%.0F,%.0F
+549,,,,N/A,,q5,VE.Bus netw. error count - unit 6,%.0F,%.0F
+550,,,,N/A,,q6,VE.Bus netw. error count - unit 7,%.0F,%.0F
+551,,,,N/A,,q7,VE.Bus netw. error count - unit 8,%.0F,%.0F
+552,,,,N/A,,q8,VE.Bus netw. error count - unit 9,%.0F,%.0F
+553,,,,N/A,,q9,VE.Bus netw. error count - unit 10,%.0F,%.0F
+554,,,,N/A,,q10,VE.Bus netw. error count - unit 11,%.0F,%.0F
+555,,,,N/A,,q11,VE.Bus netw. error count - unit 12,%.0F,%.0F
+556,,,,N/A,,ms,Machine serial number,%s,%s
+557,Inverter,,,1754310498:1; 1754310558:1; 1754310618:1; 1754310678:1; 1754310738:1,,vcs,Charge state,%s,%s
+558,,,,N/A,,us,Update status,%s,%s
+559,Inverter,,,1754310499:0; 1754310559:0; 1754310619:0; 1754310679:0; 1754310739:0,,Agl,Grid alarm,%s,%s
+560,,,,N/A,,shao,Has AC out system,%s,%s
+561,,,,N/A,,Pj,PV Power AC-tied on Generator L1,%.0F,%.0F W
+562,,,,N/A,,Pj2,PV Power AC-tied on Generator L2,%.0F,%.0F W
+563,,,,N/A,,Pj3,PV Power AC-tied on Generator L3,%.0F,%.0F W
+564,,,,N/A,,i1,AC Consumption on Input L1,%.0F,%.0F W
+565,,,,N/A,,i2,AC Consumption on Input L2,%.0F,%.0F W
+566,,,,N/A,,i3,AC Consumption on Input L3,%.0F,%.0F W
+567,,,,N/A,,o1,AC Consumption on Output L1,%.0F,%.0F W
+568,,,,N/A,,o2,AC Consumption on Output L2,%.0F,%.0F W
+569,,,,N/A,,o3,AC Consumption on Output L3,%.0F,%.0F W
+570,,,,N/A,,st,System type,%s,%s
+571,,,,N/A,,ss,System state,%s,%s
+572,,,,N/A,,mql,MQTT Local (https),%s,%s
+573,,,,N/A,,mqli,MQTT Local (http),%s,%s
+574,,,,N/A,,pcF,Signal Frequency,%.1F,%.1F MHz
+575,,,,N/A,,pcR,Signal RSSI,%.0F,%.0F dB
+576,,,,N/A,,pcN,Signal SNR (signal to noise ratio),%.1F,%.1F
+577,,,,N/A,,rtt,D-Bus Round-trip time,%.0F,%.0F ms
+578,,,,N/A,PV Voltage,evc,Effective charge voltage,%.1F,%.1F V
+579,,,,N/A,,Amb,DVCC Multiple batteries alarm,%s,%s
+580,,,,N/A,,Af,GX Error #48 DVCC with incompatible firmware,%s,%s
+581,Inverter,,,1754310517:0; 1754310577:0; 1754310637:0; 1754310697:0; 1754310757:0,,rt,Waiting to perform relay test,%s,%s
+582,,,,N/A,,rwgm,Run without grid meter,%s,%s
+583,MPPT,,,1754292278:0; 1754292338:0; 1754292398:0; 1754292458:0; 1754292518:0,,ScOR,Solar charger off reason,%s,%s
+584,,,,N/A,,la,Altitude,%.1F,%.1F m
+585,,,,N/A,,Bcn,Battery custom name,%s,%s
+586,,,,N/A,,Sccn,Solar charger custom name,%s,%s
+587,,,,N/A,,pcn,PV Inverter custom name,%s,%s
+588,,,,N/A,,ccn,Charger custom name,%s,%s
+589,,,,N/A,,gcn,Grid meter custom name,%s,%s
+590,,,,N/A,,icn,Inverter custom name,%s,%s
+591,,,,N/A,,Gcn,Generator custom name,%s,%s
+592,,,,N/A,,pmcn,Pulse Meter custom name,%s,%s
+593,,,,N/A,,dicn,Digital Input custom name,%s,%s
+594,,,,N/A,,iccid,SIM card identifier,%s,%s
+595,,,,N/A,,mfp,Maximum configured feed-in power,%.0F,%.0F W
+596,,,,N/A,,Ab,Available batteries,%s,%s
+597,,,,N/A,N/A,N/A,N/A,N/A,N/A
+598,,,,N/A,N/A,N/A,N/A,N/A,N/A
+599,,,,N/A,N/A,N/A,N/A,N/A,N/A
+600,,,,N/A,,Ba,Batteries,%s,%s
+601,,,,N/A,,fcP,Product Id,%s,%s
+602,,,,N/A,,fcf,Firmware version,%s,%s
+603,,,,N/A,,fcab1,Afterburner T1,%.0F,%.0F °C
+604,,,,N/A,,fcab2,Afterburner T2,%.0F,%.0F °C
+605,,,,N/A,Battery Voltage,fcV,DC Voltage,%.2F,%.2F V
+606,,,,N/A,,fcI,DC Current,%.1F,%.1F A
+607,,,,N/A,,fcp,DC Power,%.0F,%.0F W
+608,,,,N/A,,fcgf1,Fuel gas flow 1,%.1F,%.1F SLPM
+609,,,,N/A,,fcgf2,Fuel gas flow 2,%.1F,%.1F SLPM
+610,,,,N/A,,fcrt1,Reformer T1,%.0F,%.0F °C
+611,,,,N/A,,fcrt2,Reformer T2,%.0F,%.0F °C
+612,,,,N/A,,fcst1,Stack T1,%.0F,%.0F °C
+613,,,,N/A,,fcst2,Stack T2,%.0F,%.0F °C
+614,,,,N/A,,fcst3,Stack T3,%.0F,%.0F °C
+615,,,,N/A,,fcst4,Stack T4,%.0F,%.0F °C
+616,,,,N/A,,fcS,Status,%s,%s
+617,,,,N/A,,fcAlp,Low fuel pressure,%s,%s
+618,,,,N/A,,fcAb,Low battery,%s,%s
+619,,,,N/A,,fcAg,Lost grid fuel cell shutdown,%s,%s
+620,,,,N/A,,fcAst,Sulfur trap,%s,%s
+621,,,,N/A,,fcAv,Vent,%s,%s
+622,,,,N/A,,fcAc,Fuel cell fault,%s,%s
+623,,,,N/A,,fcAct,Fuel cell over temp,%s,%s
+624,,,,N/A,,fcAfl,Flow limited,%s,%s
+625,,,,N/A,,fcAff,Flow fault,%s,%s
+626,,,,N/A,,fcAe,Electrical fault,%s,%s
+627,,,,N/A,,fcAt,Over temp,%s,%s
+628,,,,N/A,,fcAi,Start inhibit,%s,%s
+629,,,,N/A,,fcAs,Expedited stop,%s,%s
+630,,,,N/A,Battery Voltage,glV,Voltage,%.2F,%.2F V
+631,,,,N/A,,glT,Internal temperature,%.0F,%.0F °C
+632,,,,N/A,,glAnt,Antenna Type,%s,%s
+633,,,,N/A,,fcS1,Serial number overall system,%s,%s
+634,,,,N/A,,fcS2,Serial number stack,%s,%s
+635,,,,N/A,N/A,N/A,N/A,N/A,N/A
+636,,,,N/A,,hwr,Hardware revision,%s,%s
+637,,,,N/A,,tscn,Temperature custom name,%s,%s
+638,,,,N/A,,tcn,Tank custom name,%s,%s
+639,,,,N/A,,gps,Grid phase sequence,%s,%s
+640,,,,N/A,,Gps,Genset phase sequence,%s,%s
+641,,,,N/A,,o,Bad non-unique identifier,%s,%s
+642,,,,N/A,,dl,Current limit,%.2F,%.2F A
+643,,,,N/A,,dss,Saved state,%.0F,%.0F
+644,,,,N/A,,da,24-Hour allocation,%.2F,%.2F Wh
+645,,,,N/A,,du,24-Hour usage,%.2F,%.2F Wh
+646,,,,N/A,,dq,Pro-rata quota,%.2F,%.2F Wh
+647,,,,N/A,,drh,Reset hour,%.0F,%.0F
+648,,,,N/A,,dts,Threshold management,%s,%s
+649,Inverter,,,1754310517:0; 1754310577:0; 1754310637:0; 1754310697:0; 1754310757:0,,eV,High DC Voltage,%s,%s
+650,Inverter,,,1754310518:0; 1754310578:0; 1754310638:0; 1754310698:0; 1754310758:0,,eC,High DC Current,%s,%s
+651,,,,N/A,,v0,Device 0 High DC Voltage,%s,%s
+652,,,,N/A,N/A,N/A,N/A,N/A,N/A
+653,,,,N/A,,v1,Device 1 High DC Voltage,%s,%s
+654,,,,N/A,,v2,Device 2 High DC Voltage,%s,%s
+655,,,,N/A,,v3,Device 3 High DC Voltage,%s,%s
+656,,,,N/A,,v4,Device 4 High DC Voltage,%s,%s
+657,,,,N/A,,v5,Device 5 High DC Voltage,%s,%s
+658,,,,N/A,,v6,Device 6 High DC Voltage,%s,%s
+659,,,,N/A,,v7,Device 7 High DC Voltage,%s,%s
+660,,,,N/A,,v8,Device 8 High DC Voltage,%s,%s
+661,,,,N/A,,v9,Device 9 High DC Voltage,%s,%s
+662,,,,N/A,,v10,Device 10 High DC Voltage,%s,%s
+663,,,,N/A,,v11,Device 11 High DC Voltage,%s,%s
+664,,,,N/A,,d0,Device 0 High DC Current,%s,%s
+665,,,,N/A,,d1,Device 1 High DC Current,%s,%s
+666,,,,N/A,,d2,Device 2 High DC Current,%s,%s
+667,,,,N/A,,d3,Device 3 High DC Current,%s,%s
+668,,,,N/A,,d4,Device 4 High DC Current,%s,%s
+669,,,,N/A,,d5,Device 5 High DC Current,%s,%s
+670,,,,N/A,,d6,Device 6 High DC Current,%s,%s
+671,,,,N/A,,d7,Device 7 High DC Current,%s,%s
+672,,,,N/A,,d8,Device 8 High DC Current,%s,%s
+673,,,,N/A,,d9,Device 9 High DC Current,%s,%s
+674,,,,N/A,,d10,Device 10 High DC Current,%s,%s
+675,,,,N/A,,d11,Device 11 High DC Current,%s,%s
+676,,,,N/A,,H4m,No grid meter alarm,%s,%s
+677,Inverter,,,1754310480:0; 1754310540:0; 1754310600:0; 1754310660:0; 1754310720:0,,ia,Ignore AC input,%s,%s
+678,,,,N/A,,ns0,Interface protection log 0,%s,%s
+679,,,,N/A,,ns1,Interface protection log 1,%s,%s
+680,,,,N/A,,ns2,Interface protection log 2,%s,%s
+681,,,,N/A,,ns3,Interface protection log 3,%s,%s
+682,,,,N/A,,ns4,Interface protection log 4,%s,%s
+683,,,,N/A,,ns5,Interface protection log 5,%s,%s
+684,,,,N/A,,ns6,Interface protection log 6,%s,%s
+685,,,,N/A,,ns7,Interface protection log 7,%s,%s
+686,,,,N/A,,ns8,Interface protection log 8,%s,%s
+687,,,,N/A,,ns9,Interface protection log 9,%s,%s
+688,,,,N/A,,ns10,Interface protection log 10,%s,%s
+689,,,,N/A,,ns11,Interface protection log 11,%s,%s
+690,,,,N/A,,PCo,Programmable Contact,%s,%s
+691,,,,N/A,,ble,Bluetooth enabled,%s,%s
+692,,,,N/A,,nr,NodeRed,%s,%s
+693,,,,N/A,,sk,SignalK,%s,%s
+694,,,,N/A,,nrCaps,Node RED Capabilities,%s,%s
+695,,,,N/A,PV Voltage,PVV0,PV Voltage on tracker 1,%.2F,%.1F V
+696,,,,N/A,PV Voltage,PVV1,PV Voltage on tracker 2,%.2F,%.1F V
+697,,,,N/A,PV Voltage,PVV2,PV Voltage on tracker 3,%.2F,%.1F V
+698,,,,N/A,PV Voltage,PVV3,PV Voltage on tracker 4,%.2F,%.1F V
+699,,,,N/A,,PVI0,PV current on tracker 1,%.1F,%.1F A
+700,,,,N/A,,PVI1,PV current on tracker 2,%.1F,%.1F A
+701,,,,N/A,,PVI2,PV current on tracker 3,%.1F,%.1F A
+702,,,,N/A,,PVI3,PV current on tracker 4,%.1F,%.1F A
+703,,,,N/A,,YT0,Yield today on tracker 1,%.2F,%.2F kWh
+704,,,,N/A,,YT1,Yield today on tracker 2,%.2F,%.2F kWh
+705,,,,N/A,,YT2,Yield today on tracker 3,%.2F,%.2F kWh
+706,,,,N/A,,YT3,Yield today on tracker 4,%.2F,%.2F kWh
+707,,,,N/A,,YY0,Yield yesterday on tracker 1,%.2F,%.2F kWh
+708,,,,N/A,,YY1,Yield yesterday on tracker 2,%.2F,%.2F kWh
+709,,,,N/A,,YY2,Yield yesterday on tracker 3,%.2F,%.2F kWh
+710,,,,N/A,,YY3,Yield yesterday on tracker 4,%.2F,%.2F kWh
+711,,,,N/A,,MCPT0,Maximum charge power today on tracker 1,%d,%d W
+712,,,,N/A,,MCPT1,Maximum charge power today on tracker 2,%d,%d W
+713,,,,N/A,,MCPT2,Maximum charge power today on tracker 3,%d,%d W
+714,,,,N/A,,MCPT3,Maximum charge power today on tracker 4,%d,%d W
+715,,,,N/A,,MCPY0,Maximum charge power yesterday on tracker 1,%d,%d W
+716,,,,N/A,,MCPY1,Maximum charge power yesterday on tracker 2,%d,%d W
+717,,,,N/A,,MCPY2,Maximum charge power yesterday on tracker 3,%d,%d W
+718,,,,N/A,,MCPY3,Maximum charge power yesterday on tracker 4,%d,%d W
+719,Inverter,,,1754310512:0; 1754310572:0; 1754310632:0; 1754310692:0; 1754310752:0,,p0,Device 0 Power-pack pre-overload,%s,%s
+720,,,,N/A,,p1,Device 1 Power-pack pre-overload,%s,%s
+721,,,,N/A,,p2,Device 2 Power-pack pre-overload,%s,%s
+722,,,,N/A,,p3,Device 3 Power-pack pre-overload,%s,%s
+723,,,,N/A,,p4,Device 4 Power-pack pre-overload,%s,%s
+724,,,,N/A,,p5,Device 5 Power-pack pre-overload,%s,%s
+725,,,,N/A,,p6,Device 6 Power-pack pre-overload,%s,%s
+726,,,,N/A,,p7,Device 7 Power-pack pre-overload,%s,%s
+727,,,,N/A,,p8,Device 8 Power-pack pre-overload,%s,%s
+728,,,,N/A,,p9,Device 9 Power-pack pre-overload,%s,%s
+729,,,,N/A,,p10,Device 10 Power-pack pre-overload,%s,%s
+730,,,,N/A,,p11,Device 11 Power-pack pre-overload,%s,%s
+731,,,,N/A,,pdV,Data Manager Version,%s,%s
+732,,,,N/A,,H4f1,L1 Frequency Variation,%s,%s
+733,,,,N/A,,H4f2,L2 Frequency Variation,%s,%s
+734,,,,N/A,,H4f3,L3 Frequency Variation,%s,%s
+735,,,,N/A,,mbc,Number of modules blocking charge,%.0F,%.0F
+736,,,,N/A,,mbd,Number of modules blocking discharge,%.0F,%.0F
+737,,,,N/A,,mof,Number of modules offline,%.0F,%.0F
+738,,,,N/A,,mon,Number of modules online,%.0F,%.0F
+739,,,,N/A,,Abc,Charge blocked,%s,%s
+740,,,,N/A,,Abd,Discharge blocked,%s,%s
+741,,,,N/A,,H4of,Feed excess DC-coupled PV into the grid,%s,%s
+742,,,,N/A,,H4pf,Feed AC-coupled PV into the grid,%s,%s
+743,,,,N/A,,umc,DVCC user configured maximum charge current,%.1F,%.1F A
+744,,,,N/A,Battery Voltage,umv,DVCC user configured maximum charge voltage,%.2F,%.2F V
+745,,,,N/A,,ia2,Ignore AC input 2,%s,%s
+746,,,,N/A,,iOF1,AC frequency,%.1F,%.1F Hz
+747,,,,N/A,,il,DC Current,%.2F,%.2F A
+748,,,,N/A,,iT,Battery temperature,%.1F,%.1F °C
+749,,,,N/A,,iOR,Off reason,%s,%s
+750,,,,N/A,PV Voltage,iPVV,PV Voltage,%.2F,%.1F V
+751,,,,N/A,,iPVI,PV Current,%.2F,%.2F A
+752,,,,N/A,,iRelay,Relay state,%s,%s
+753,,,,N/A,Percetange,iSOC,State of charge,%.1F,%.1F %%
+754,,,,N/A,,iPVP,PV Power,%.0F,%.0F W
+755,,,,N/A,,iMm,Overall MPPT State,%s,%s
+756,,,,N/A,,iYT,Yield today,%.1F,%.1F kWh
+757,,,,N/A,,iYY,Yield yesterday,%.1F,%.1F kWh
+758,,,,N/A,,iMPT,Max power yesterday,%.0F,%.0F W
+759,,,,N/A,,ds,Switch state,%s,%s
+760,,,,N/A,,SP,Split Phase L2 Passthru,%s,%s
+761,,,,N/A,N/A,N/A,N/A,N/A,N/A
+762,,,,N/A,N/A,N/A,N/A,N/A,N/A
+763,,,,N/A,PV Voltage,iPVV0,PV Voltage on tracker 1,%.2F,%.1F V
+764,,,,N/A,PV Voltage,iPVV1,PV Voltage on tracker 2,%.2F,%.1F V
+765,,,,N/A,PV Voltage,iPVV2,PV Voltage on tracker 3,%.2F,%.1F V
+766,,,,N/A,PV Voltage,iPVV3,PV Voltage on tracker 4,%.2F,%.1F V
+767,,,,N/A,,iPVI0,PV current on tracker 1,%.1F,%.1F A
+768,,,,N/A,,iPVI1,PV current on tracker 2,%.1F,%.1F A
+769,,,,N/A,,iPVI2,PV current on tracker 3,%.1F,%.1F A
+770,,,,N/A,,iPVI3,PV current on tracker 4,%.1F,%.1F A
+771,,,,N/A,,iYT0,Yield today on tracker 1,%.2F,%.2F kWh
+772,,,,N/A,,iYT1,Yield today on tracker 2,%.2F,%.2F kWh
+773,,,,N/A,,iYT2,Yield today on tracker 3,%.2F,%.2F kWh
+774,,,,N/A,,iYT3,Yield today on tracker 4,%.2F,%.2F kWh
+775,,,,N/A,,iYY0,Yield yesterday on tracker 1,%.2F,%.2F kWh
+776,,,,N/A,,iYY1,Yield yesterday on tracker 2,%.2F,%.2F kWh
+777,,,,N/A,,iYY2,Yield yesterday on tracker 3,%.2F,%.2F kWh
+778,,,,N/A,,iYY3,Yield yesterday on tracker 4,%.2F,%.2F kWh
+779,,,,N/A,,iMCPT0,Maximum charge power today on tracker 1,%d,%d W
+780,,,,N/A,,iMCPT1,Maximum charge power today on tracker 2,%d,%d W
+781,,,,N/A,,iMCPT2,Maximum charge power today on tracker 3,%d,%d W
+782,,,,N/A,,iMCPT3,Maximum charge power today on tracker 4,%d,%d W
+783,,,,N/A,,iMCPY0,Maximum charge power yesterday on tracker 1,%d,%d W
+784,,,,N/A,,iMCPY1,Maximum charge power yesterday on tracker 2,%d,%d W
+785,,,,N/A,,iMCPY2,Maximum charge power yesterday on tracker 3,%d,%d W
+786,,,,N/A,,iMCPY3,Maximum charge power yesterday on tracker 4,%d,%d W
+787,,,,N/A,N/A,N/A,N/A,N/A,N/A
+788,,,,N/A,,iOP1,AC-Out Power,%d,%d W
+789,,,,N/A,,it9,Energy to AC-Out,%.2F,%.2F kWh
+790,,,,N/A,,it10,Energy out to inverter,%.2F,%.2F kWh
+791,,,,N/A,,it11,Solar to AC-Out,%.2F,%.2F kWh
+792,,,,N/A,,it12,Solar to battery,%.2F,%.2F kWh
+793,,,,N/A,,aP,Product id,%s,%s
+794,,,,N/A,AC Power,a1p,AC Meter power L1,%d,%d W
+795,,,,N/A,AC Power,a2p,AC Meter power L2,%d,%d W
+796,,,,N/A,AC Power,a3p,AC Meter power L3,%d,%d W
+797,,,,N/A,,acn,Custom name,%s,%s
+798,,,,N/A,,a1f,L1 Forward energy,%.2F,%.2F kWh
+799,,,,N/A,,a2f,L2 Forward energy,%.2F,%.2F kWh
+800,,,,N/A,,a3f,L3 Forward energy,%.2F,%.2F kWh
+801,,,,N/A,N/A,N/A,N/A,N/A,N/A
+802,,,,N/A,,PVP0,PV power on tracker 1,%d,%d W
+803,,,,N/A,,PVP1,PV power on tracker 2,%d,%d W
+804,,,,N/A,,PVP2,PV power on tracker 3,%d,%d W
+805,,,,N/A,,PVP3,PV power on tracker 4,%d,%d W
+806,,,,N/A,,iPVP0,PV Power on tracker 1,%.0F,%.0F W
+807,,,,N/A,,iPVP1,PV Power on tracker 2,%.0F,%.0F W
+808,,,,N/A,,iPVP2,PV Power on tracker 3,%.0F,%.0F W
+809,,,,N/A,,iPVP3,PV Power on tracker 4,%.0F,%.0F W
+810,,,,N/A,,evP,Product ID,%s,%s
+811,,,,N/A,,evF,Firmware version,%s,%s
+812,,,,N/A,,evS,Serial,%s,%s
+813,,,,N/A,,evpm,Model,%s,%s
+814,,,,N/A,,evcn,Custom name,%s,%s
+815,,,,N/A,,evmi,Max current,%.0F,%.0F A
+816,,,,N/A,,evf,Forward energy,%.2F,%.2F kWh
+817,,,,N/A,,ev1p,L1 Power,%d,%d W
+818,,,,N/A,,ev2p,L2 Power,%d,%d W
+819,,,,N/A,,ev3p,L3 Power,%d,%d W
+820,,,,N/A,,evp,Power,%d,%d W
+821,,,,N/A,,evt,Charging time,%d,%d
+822,,,,N/A,,evi,Current,%.1F,%.1F A
+823,,,,N/A,,evm,Mode,%s,%s
+824,,,,N/A,,evs,Status,%s,%s
+825,,,,N/A,,ic0,AC Input 1 connected,%s,%s
+826,,,,N/A,,ic1,AC Input 2 connected,%s,%s
+827,,,,N/A,,id0,AC Input 1 device instance,%d,%d
+828,,,,N/A,,id1,AC Input 2 device instance,%d,%d
+829,,,,N/A,,ist0,AC Input 1 service type,%s,%s
+830,,,,N/A,,ist1,AC Input 2 service type,%s,%s
+831,,,,N/A,,is0,AC Input 1 source,%s,%s
+832,,,,N/A,,is1,AC Input 2 source,%s,%s
+833,,,,N/A,,ini,Number of AC Inputs,%d,%d
+834,,,,N/A,AC Voltage,g1v,Grid meter voltage L1,%.2F,%.1F V
+835,,,,N/A,,g1c,Grid meter current L1,%.1F,%.1F A
+836,,,,N/A,,g1F,Grid meter frequency L1,%.1F,%.1F Hz
+837,,,,N/A,AC Voltage,g2v,Grid meter voltage L2,%.2F,%.1F V
+838,,,,N/A,,g2c,Grid meter current L2,%.1F,%.1F A
+839,,,,N/A,,g2F,Grid meter frequency L2,%.1F,%.1F Hz
+840,,,,N/A,AC Voltage,g3v,Grid meter voltage L3,%.2F,%.1F V
+841,,,,N/A,,g3c,Grid meter current L3,%.1F,%.1F A
+842,,,,N/A,,g3F,Grid meter frequency L3,%.1F,%.1F Hz
+843,,,,N/A,,gf,Grid Total Energy from net,%.2F,%.2F kWh
+844,,,,N/A,,gr,Grid Total Energy to net,%.2F,%.2F kWh
+845,,,,N/A,,af,Total Forward energy,%.2F,%.2F kWh
+846,,,,N/A,,pf,Total Energy forward,%.2F,%.2F kWh
+847,,,,N/A,,dsP,Product ID,%s,%s
+848,,,,N/A,,dsS,Serial,%s,%s
+849,,,,N/A,,dsF,Firmware Version,%s,%s
+850,,,,N/A,,dscn,Custom Name,%s,%s
+851,,,,N/A,,dsm,Monitor Mode,%s,%s
+852,,,,N/A,N/A,N/A,N/A,N/A,N/A
+853,,,,N/A,,dsV,Battery Voltage,%.2F,%.2F V
+854,,,,N/A,,dsI,Generated Current,%.2F,%.2F A
+855,,,,N/A,,dsT,Temperature,%.1F,%.1F °C
+856,,,,N/A,N/A,N/A,N/A,N/A,N/A
+857,,,,N/A,,dsAV,Auxiliary Voltage,%.2F,%.2F V
+858,,,,N/A,,dsf,Total energy produced,%.2F,%.2F kWh
+859,,,,N/A,,dseL,Low voltage alarm,%s,%s
+860,,,,N/A,,dseH,High voltage alarm,%s,%s
+861,,,,N/A,,dsLS,Low auxiliary voltage alarm,%s,%s
+862,,,,N/A,,dsHS,High auxiliary voltage alarm,%s,%s
+863,,,,N/A,,dsLT,Low temperature alarm,%s,%s
+864,,,,N/A,,dsHT,High temperature alarm,%s,%s
+865,,,,N/A,N/A,N/A,N/A,N/A,N/A
+866,,,,N/A,,alP,Product ID,%s,%s
+867,,,,N/A,,alS,Serial,%s,%s
+868,,,,N/A,,alF,Firmware version,%s,%s
+869,,,,N/A,,alcn,Custom Name,%s,%s
+870,,,,N/A,,alm,Monitor Mode,%s,%s
+871,,,,N/A,,alV,Output Voltage,%.2F,%.2F V
+872,,,,N/A,,alI,Output Current,%.2F,%.2F A
+873,,,,N/A,,alT,Alternator Temperature,%.1F,%.1F °C
+874,,,,N/A,,alAV,Auxiliary Voltage,%.2F,%.2F V
+875,,,,N/A,,alf,Total energy produced,%.2F,%.2F kWh
+876,,,,N/A,,aleL,Low voltage alarm,%s,%s
+877,,,,N/A,,aleH,High voltage alarm,%s,%s
+878,,,,N/A,,alLS,Low auxiliary voltage alarm,%s,%s
+879,,,,N/A,,alHS,High auxiliary voltage alarm,%s,%s
+880,,,,N/A,,alLT,Low temperature alarm,%s,%s
+881,,,,N/A,,alHT,High temperature alarm,%s,%s
+882,,,,N/A,,dlP,Product ID,%s,%s
+883,,,,N/A,,dlS,Serial,%s,%s
+884,,,,N/A,,dlF,Firmware version,%s,%s
+885,,,,N/A,,dlcn,Custom Name,%s,%s
+886,,,,N/A,,dlm,Monitor Mode,%s,%s
+887,,,,N/A,,dlV,Battery Voltage,%.2F,%.2F V
+888,,,,N/A,,dlI,Load Current,%.2F,%.2F A
+889,,,,N/A,,dlT,Temperature,%.1F,%.1F °C
+890,,,,N/A,,dlAV,Auxiliary Voltage,%.2F,%.2F V
+891,,,,N/A,,dlf,Total energy consumed,%.2F,%.2F kWh
+892,,,,N/A,,dleL,Low voltage alarm,%s,%s
+893,,,,N/A,,dleH,High voltage alarm,%s,%s
+894,,,,N/A,,dlLS,Low auxiliary voltage alarm,%s,%s
+895,,,,N/A,,dlHS,High auxiliary voltage alarm,%s,%s
+896,,,,N/A,,dlLT,Low temperature alarm,%s,%s
+897,,,,N/A,,dlHT,High temperature alarm,%s,%s
+898,,,,N/A,,dcP,Product ID,%s,%s
+899,,,,N/A,,dcS,Serial,%s,%s
+900,,,,N/A,,dcF,Firmware version,%s,%s
+901,,,,N/A,,dccn,Custom Name,%s,%s
+902,,,,N/A,,dcm,Monitor Mode,%s,%s
+903,,,,N/A,,dcV,Battery Voltage,%.2F,%.2F V
+904,,,,N/A,,dcI,System Current,%.2F,%.2F A
+905,,,,N/A,,dcT,Temperature,%.1F,%.1F °C
+906,,,,N/A,,dcAV,Auxiliary Voltage,%.2F,%.2F V
+907,,,,N/A,,dcf,Total energy consumed,%.2F,%.2F kWh
+908,,,,N/A,,dcr,Total energy produced,%.2F,%.2F kWh
+909,,,,N/A,,dceL,Low voltage alarm,%s,%s
+910,,,,N/A,,dceH,High voltage alarm,%s,%s
+911,,,,N/A,,dcLS,Low auxiliary voltage alarm,%s,%s
+912,,,,N/A,,dcHS,High auxiliary voltage alarm,%s,%s
+913,,,,N/A,,dcLT,Low temperature alarm,%s,%s
+914,,,,N/A,,dcHT,High temperature alarm,%s,%s
+915,,,,N/A,,gRT,Generator run-time since last start,%d,%d
+916,,,,N/A,,gLS,Generator last start,%d,%d
+917,,,,N/A,,gRC,Generator run by condition code,%s,%s
+918,,,,N/A,,vi0,AC Input 1 VRM device instance,%d,%d
+919,,,,N/A,,vi1,AC Input 2 VRM device instance,%d,%d
+920,,,,N/A,Percetange,tsH,Humidity,%.1F,%.1F %%
+921,,,,N/A,pressure,tsB,Pressure,%.1F,%.1F hPa
+922,,,,N/A,,mp,Product ID,%s,%s
+923,,,,N/A,,msn,Inverter/Charger serial number,%s,%s
+924,,,,N/A,,mv,Firmware version,%s,%s
+925,,,,N/A,,mcn,Custom Name,%s,%s
+926,,,,N/A,,mV,Battery Voltage,%.2F,%.2F V
+927,,,,N/A,,mI,DC Current,%.2F,%.2F A
+928,,,,N/A,,mT,Battery temperature,%.1F,%.1F °C
+929,,,,N/A,AC Voltage,mIV1,AC Input Voltage L1,%.2F,%.2F V
+930,,,,N/A,,mIP1,AC Input Power L1,%d,%d W
+931,,,,N/A,,mII1,AC Input Current L1,%.2F,%.2F A
+932,,,,N/A,,mIF1,AC Input Frequency,%.2F,%.2F Hz
+933,,,,N/A,AC Voltage,mIV2,AC Input Voltage L2,%.2F,%.2F V
+934,,,,N/A,,mIP2,AC Input Power L2,%d,%d W
+935,,,,N/A,,mII2,AC Input Current L2,%.2F,%.2F A
+936,,,,N/A,AC Voltage,mIV3,AC Input Voltage L3,%.2F,%.2F V
+937,,,,N/A,,mIP3,AC Input Power L3,%d,%d W
+938,,,,N/A,,mII3,AC Input Current L3,%.2F,%.2F A
+939,,,,N/A,AC Voltage,mOV1,AC Output Voltage L1,%.2F,%.2F V
+940,,,,N/A,,mOP1,AC Output Power L1,%d,%d W
+941,,,,N/A,,mOI1,AC Output Current L1,%.2F,%.2F A
+942,,,,N/A,,mOF1,AC Output Frequency,%.2F,%.2F Hz
+943,,,,N/A,AC Voltage,mOV2,AC Output Voltage L2,%.2F,%.2F V
+944,,,,N/A,,mOP2,AC Output Power L2,%d,%d W
+945,,,,N/A,,mOI2,AC Output Current L2,%.2F,%.2F A
+946,,,,N/A,AC Voltage,mOV3,AC Output Voltage L3,%.2F,%.2F V
+947,,,,N/A,,mOP3,AC Output Power L3,%d,%d W
+948,,,,N/A,,mOI3,AC Output Current L3,%.2F,%.2F A
+949,,,,N/A,,mIL,AC Input 1 Current Limit,%.0F,%.0F A
+950,,,,N/A,,meT,High temperature alarm,%s,%s
+951,,,,N/A,,meHV,High voltage alarm,%s,%s
+952,,,,N/A,,meHVO,High AC output voltage alarm,%s,%s
+953,,,,N/A,,meLT,Low temperature alarm,%s,%s
+954,,,,N/A,,meLV,Low voltage alarm,%s,%s
+955,,,,N/A,,meLVO,Low AC output voltage alarm,%s,%s
+956,,,,N/A,,emO,AC overload alarm,%s,%s
+957,,,,N/A,,emR,DC ripple alarm,%s,%s
+958,,,,N/A,N/A,N/A,N/A,N/A,N/A
+959,,,,N/A,Percetange,mSOC,Battery State of Charge,%.1F,%.1F %%
+960,,,,N/A,,mSa,State,%s,%s
+961,,,,N/A,,mM,Mode,%s,%s
+962,,,,N/A,N/A,N/A,N/A,N/A,N/A
+963,,,,N/A,N/A,N/A,N/A,N/A,N/A
+964,,,,N/A,,mPVP,PV Power,%.0F,%.0F W
+965,,,,N/A,PV Voltage,mPVV,PV Voltage,%.2F,%.1F V
+966,,,,N/A,,mYU,Total PV Yield,%.2F,%.2F kWh
+967,,,,N/A,,mRelay,Internal Relay State,%s,%s
+968,,,,N/A,,mMm,MPP Operation Mode,%s,%s
+969,,,,N/A,,mE,Error Code,%s,%s
+970,,,,N/A,,mt1,Energy AC-in-1 to DC,%.2F,%.2F kWh
+971,,,,N/A,,mt2,Energy AC-in-2 to DC,%.2F,%.2F kWh
+972,,,,N/A,,mt3,Energy AC-in-1 to AC-out,%.2F,%.2F kWh
+973,,,,N/A,,mt4,Energy AC-in-2 to AC-out,%.2F,%.2F kWh
+974,,,,N/A,,mt5,Energy DC to AC-in-1,%.2F,%.2F kWh
+975,,,,N/A,,mt6,Energy DC to AC-in-2,%.2F,%.2F kWh
+976,,,,N/A,,mt7,Energy AC-out to AC-in-1,%.2F,%.2F kWh
+977,,,,N/A,,mt8,Energy AC-out to AC-in-2,%.2F,%.2F kWh
+978,,,,N/A,,mt9,Energy DC to AC-out,%.2F,%.2F kWh
+979,,,,N/A,,mt10,Energy AC-out to DC,%.2F,%.2F kWh
+980,,,,N/A,,mt11,Energy PV to AC-out,%.2F,%.2F kWh
+981,,,,N/A,,mt12,Energy PV to DC/battery,%.2F,%.2F kWh
+982,,,,N/A,,mt13,Energy PV to AC-in-1,%.2F,%.2F kWh
+983,,,,N/A,,mt14,Energy PV to AC-in-2,%.2F,%.2F kWh
+984,,,,N/A,,ct,CPU Temperature,%.2F,%.2F °C
+985,,,,N/A,,dg,Default gateway,%s,%s
+986,,,,N/A,,iE,Error Code,%s,%s
+987,,,,N/A,,mYT,PV Yield today,%.2F,%.2F kWh
+988,,,,N/A,,mMPT,Maximum PV power today,%d,%d W
+989,,,,N/A,,mYY,PV Yield yesterday,%.2F,%.2F kWh
+990,,,,N/A,,mMPY,Maximum PV power yesterday,%d,%d W
+991,,,,N/A,,mYT0,PV Yield today (tracker 0),%.2F,%.2F kWh
+992,,,,N/A,,mYT1,PV Yield today (tracker 1),%.2F,%.2F kWh
+993,,,,N/A,,mYT2,PV Yield today (tracker 2),%.2F,%.2F kWh
+994,,,,N/A,,mYT3,PV Yield today (tracker 3),%.2F,%.2F kWh
+995,,,,N/A,,mYY0,PV Yield yesterday (tracker 0),%.2F,%.2F kWh
+996,,,,N/A,,mYY1,PV Yield yesterday (tracker 1),%.2F,%.2F kWh
+997,,,,N/A,,mYY2,PV Yield yesterday (tracker 2),%.2F,%.2F kWh
+998,,,,N/A,,mYY3,PV Yield yesterday (tracker 3),%.2F,%.2F kWh
+999,,,,N/A,,mMCPT0,Maximum PV power today (tracker 0),%d,%d W
+1000,,,,N/A,,mMCPT1,Maximum PV power today (tracker 1),%d,%d W
+1001,,,,N/A,,mMCPT2,Maximum PV power today (tracker 2),%d,%d W
+1002,,,,N/A,,mMCPT3,Maximum PV power today (tracker 3),%d,%d W
+1003,,,,N/A,,mMCPY0,Maximum PV power yesterday (tracker 0),%d,%d W
+1004,,,,N/A,,mMCPY1,Maximum PV power yesterday (tracker 1),%d,%d W
+1005,,,,N/A,,mMCPY2,Maximum PV power yesterday (tracker 2),%d,%d W
+1006,,,,N/A,,mMCPY3,Maximum PV power yesterday (tracker 3),%d,%d W
+1007,,,,N/A,PV Voltage,mPVV0,PV Voltage tracker 0,%.2F,%.1F V
+1008,,,,N/A,PV Voltage,mPVV1,PV Voltage tracker 1,%.2F,%.1F V
+1009,,,,N/A,PV Voltage,mPVV2,PV Voltage tracker 2,%.2F,%.1F V
+1010,,,,N/A,PV Voltage,mPVV3,PV Voltage tracker 3,%.2F,%.1F V
+1011,,,,N/A,,mPVP0,PV power on tracker 0,%d,%d W
+1012,,,,N/A,,mPVP1,PV power on tracker 1,%d,%d W
+1013,,,,N/A,,mPVP2,PV power on tracker 2,%d,%d W
+1014,,,,N/A,,mPVP3,PV power on tracker 3,%d,%d W
+1015,,,,N/A,,Ft,Accumulated runtime FischerPanda generators,%d,%d
+1016,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1017,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1018,,,,N/A,,Gt,Accumulated time for generic Generator,%d,%d
+1019,,,,N/A,,pga,Paygo active,%s,%s
+1020,,,,N/A,,pgaf,Paygo active from this date/time,%s,%s
+1021,,,,N/A,,pgat,Paygo active until this date/time,%s,%s
+1022,,,,N/A,,pgb,Paygo blocked until this date/time,%s,%s
+1023,,,,N/A,,pglt,Latest token entered,%s,%s
+1024,,,,N/A,,pglv,Validity of latest token,%s,%s
+1025,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1026,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1027,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1028,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1029,,,,N/A,,gaR,Total run time,%d,%d
+1030,,,,N/A,,gaT,Run time today,%d,%d
+1031,,,,N/A,,gaE,Autostart error,%s,%s
+1032,,,,N/A,,gaM,Manual start,%s,%s
+1033,,,,N/A,,gaMT,Manual start timer,%d,%d
+1034,,,,N/A,,gaQ,Quiet hours,%s,%s
+1035,,,,N/A,,bT,System Battery Temperature,%.0F,%.0F °C
+1036,,,,N/A,,eva,AutoStart,%s,%s
+1037,,,,N/A,,evd,EnableDisplay,%s,%s
+1038,,,,N/A,,evl,Position,%s,%s
+1039,,,,N/A,,H4l1,Max Feedin Power L1,%.0F,%.0F W
+1040,,,,N/A,,H4l2,Max Feedin Power L2,%.0F,%.0F W
+1041,,,,N/A,,H4l3,Max Feedin Power L3,%.0F,%.0F W
+1042,,,,N/A,,H4M,How ESS Multiphase regulation is done,%s,%s
+1043,,,,N/A,,gat,Type of generator controlled by this start/stop instance,%s,%s
+1044,,,,N/A,,eve,Whether the charger is presently switched on/active/enabled,%s,%s
+1045,,,,N/A,,evmc,Max charge current in manual mode,%.2F,%.2F A
+1046,,,,N/A,,rf0,Relay 1 function,%s,%s
+1047,,,,N/A,,rf1,Relay 2 function,%s,%s
+1048,,,,N/A,,gaA,Generator autostart enabled,%s,%s
+1049,,,,N/A,,AHI,High Current Alarm,%s,%s
+1050,,,,N/A,,AC,Contactor warning,%s,%s
+1051,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1052,BMS,,,1754292781:0; 1754292841:0; 1754292901:0; 1754292961:0; 1754293021:0,,ABC,BMS cable,%s,%s
+1053,,,,N/A,,dAc,Connection lost to distributor A,%s,%s
+1054,,,,N/A,,dBc,Connection lost to distributor B,%s,%s
+1055,,,,N/A,,dCc,Connection lost to distributor C,%s,%s
+1056,,,,N/A,,dDc,Connection lost to distributor D,%s,%s
+1057,,,,N/A,,dAs,Distributor A status,%s,%s
+1058,,,,N/A,,dBs,Distributor B status,%s,%s
+1059,,,,N/A,,dCs,Distributor C status,%s,%s
+1060,,,,N/A,,dDs,Distributor D status,%s,%s
+1061,,,,N/A,,dAf0n,Distributor A Fuse 1 Name,%s,%s
+1062,,,,N/A,,dAf1n,Distributor A Fuse 2 Name,%s,%s
+1063,,,,N/A,,dAf2n,Distributor A Fuse 3 Name,%s,%s
+1064,,,,N/A,,dAf3n,Distributor A Fuse 4 Name,%s,%s
+1065,,,,N/A,,dBf0n,Distributor B Fuse 1 Name,%s,%s
+1066,,,,N/A,,dBf1n,Distributor B Fuse 2 Name,%s,%s
+1067,,,,N/A,,dBf2n,Distributor B Fuse 3 Name,%s,%s
+1068,,,,N/A,,dBf3n,Distributor B Fuse 4 Name,%s,%s
+1069,,,,N/A,,dCf0n,Distributor C Fuse 1 Name,%s,%s
+1070,,,,N/A,,dCf1n,Distributor C Fuse 2 Name,%s,%s
+1071,,,,N/A,,dCf2n,Distributor C Fuse 3 Name,%s,%s
+1072,,,,N/A,,dCf3n,Distributor C Fuse 4 Name,%s,%s
+1073,,,,N/A,,dDf0n,Distributor D Fuse 1 Name,%s,%s
+1074,,,,N/A,,dDf1n,Distributor D Fuse 2 Name,%s,%s
+1075,,,,N/A,,dDf2n,Distributor D Fuse 3 Name,%s,%s
+1076,,,,N/A,,dDf3n,Distributor D Fuse 4 Name,%s,%s
+1077,,,,N/A,,dAf0s,Distributor A Fuse 1 Status,%s,%s
+1078,,,,N/A,,dAf1s,Distributor A Fuse 2 Status,%s,%s
+1079,,,,N/A,,dAf2s,Distributor A Fuse 3 Status,%s,%s
+1080,,,,N/A,,dAf3s,Distributor A Fuse 4 Status,%s,%s
+1081,,,,N/A,,dBf0s,Distributor B Fuse 1 Status,%s,%s
+1082,,,,N/A,,dBf1s,Distributor B Fuse 2 Status,%s,%s
+1083,,,,N/A,,dBf2s,Distributor B Fuse 3 Status,%s,%s
+1084,,,,N/A,,dBf3s,Distributor B Fuse 4 Status,%s,%s
+1085,,,,N/A,,dCf0s,Distributor C Fuse 1 Status,%s,%s
+1086,,,,N/A,,dCf1s,Distributor C Fuse 2 Status,%s,%s
+1087,,,,N/A,,dCf2s,Distributor C Fuse 3 Status,%s,%s
+1088,,,,N/A,,dCf3s,Distributor C Fuse 4 Status,%s,%s
+1089,,,,N/A,,dAf0b,Distributor A Fuse 1 Blown,%s,%s
+1090,,,,N/A,,dAf1b,Distributor A Fuse 2 Blown,%s,%s
+1091,,,,N/A,,dAf2b,Distributor A Fuse 3 Blown,%s,%s
+1092,,,,N/A,,dAf3b,Distributor A Fuse 4 Blown,%s,%s
+1093,,,,N/A,,dBf0b,Distributor B Fuse 1 Blown,%s,%s
+1094,,,,N/A,,dBf1b,Distributor B Fuse 2 Blown,%s,%s
+1095,,,,N/A,,dBf2b,Distributor B Fuse 3 Blown,%s,%s
+1096,,,,N/A,,dBf3b,Distributor B Fuse 4 Blown,%s,%s
+1097,,,,N/A,,dCf0b,Distributor C Fuse 1 Blown,%s,%s
+1098,,,,N/A,,dCf1b,Distributor C Fuse 2 Blown,%s,%s
+1099,,,,N/A,,dCf2b,Distributor C Fuse 3 Blown,%s,%s
+1100,,,,N/A,,dCf3b,Distributor C Fuse 4 Blown,%s,%s
+1101,,,,N/A,,dDf0b,Distributor D Fuse 1 Blown,%s,%s
+1102,,,,N/A,,dDf1b,Distributor D Fuse 2 Blown,%s,%s
+1103,,,,N/A,,dDf2b,Distributor D Fuse 3 Blown,%s,%s
+1104,,,,N/A,,dDf3b,Distributor D Fuse 4 Blown,%s,%s
+1105,MPPT,,,1754308863:0; 1754309943:0; 1754310123:0; 1754310483:0; 1754311743:0,,Scvs,Voltage setting,,
+1106,,,,N/A,,sa,VE.Bus Switch Position Adjustable,%s,%s
+1107,Inverter,,,1754310485:0; 1754311745:0; 1754311865:0; 1754313125:0; 1754316665:0,,vs0,Serial number of 1st device,%s,%s
+1108,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1109,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1110,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1111,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1112,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1113,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1114,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1115,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1116,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1117,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1118,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1119,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1120,,,,N/A,,vs1,Serial number of 2nd device,%s,%s
+1121,,,,N/A,,vs2,Serial number of 3rd device,%s,%s
+1122,,,,N/A,,vs3,Serial number of 4th device,%s,%s
+1123,,,,N/A,,vs4,Serial number of 5th device,%s,%s
+1124,,,,N/A,,vs5,Serial number of 6th device,%s,%s
+1125,,,,N/A,,vs6,Serial number of 7th device,%s,%s
+1126,,,,N/A,,vs7,Serial number of 8th device,%s,%s
+1127,,,,N/A,,vs8,Serial number of 9th device,%s,%s
+1128,,,,N/A,,vs9,Serial number of 10th device,%s,%s
+1129,,,,N/A,,vs10,Serial number of 11th device,%s,%s
+1130,,,,N/A,,vs11,Serial number of 12th device,%s,%s
+1131,,,,N/A,,emS,Low SoC alarm,%s,%s
+1132,,,,N/A,,iS,Low SoC alarm,%s,%s
+1133,,,,N/A,,als,State,%s,%s
+1134,,,,N/A,,alE,Error code,%s,%s
+1135,,,,N/A,,ales,Engine speed,%.0F,%.0F rpm
+1136,,,,N/A,,alas,Alternator speed,%.0F,%.0F rpm
+1137,,,,N/A,Percetange,alfd,Field drive percentage,%.0F,%.0F %%
+1138,Inverter,,,1754310524:0; 1754310584:0; 1754310644:0; 1754310704:0; 1754310764:0,,vr0,VE.Bus Voltage ripple - unit 1,%.2F,%.2F V
+1139,,,,N/A,,vr1,VE.Bus Voltage ripple - unit 2,%.2F,%.2F V
+1140,,,,N/A,,vr2,VE.Bus Voltage ripple - unit 3,%.2F,%.2F V
+1141,,,,N/A,,vr3,VE.Bus Voltage ripple - unit 4,%.2F,%.2F V
+1142,,,,N/A,,vr4,VE.Bus Voltage ripple - unit 5,%.2F,%.2F V
+1143,,,,N/A,,vr5,VE.Bus Voltage ripple - unit 6,%.2F,%.2F V
+1144,,,,N/A,,vr6,VE.Bus Voltage ripple - unit 7,%.2F,%.2F V
+1145,,,,N/A,,vr7,VE.Bus Voltage ripple - unit 8,%.2F,%.2F V
+1146,,,,N/A,,vr8,VE.Bus Voltage ripple - unit 9,%.2F,%.2F V
+1147,,,,N/A,,vr9,VE.Bus Voltage ripple - unit 10,%.2F,%.2F V
+1148,,,,N/A,,vr10,VE.Bus Voltage ripple - unit 11,%.2F,%.2F V
+1149,,,,N/A,,vr11,VE.Bus Voltage ripple - unit 12,%.2F,%.2F V
+1150,Inverter,,,1754310478:52.58; 1754310538:52.58; 1754310598:52.58; 1754310658:52.58; 1754310718:52.58,,vt0,VE.Bus Terminal voltage- unit 1,%.2F,%.2F V
+1151,,,,N/A,,vt1,VE.Bus Terminal voltage - unit 2,%.2F,%.2F V
+1152,,,,N/A,,vt2,VE.Bus Terminal voltage - unit 3,%.2F,%.2F V
+1153,,,,N/A,,vt3,VE.Bus Terminal voltage - unit 4,%.2F,%.2F V
+1154,,,,N/A,,vt4,VE.Bus Terminal voltage - unit 5,%.2F,%.2F V
+1155,,,,N/A,,vt5,VE.Bus Terminal voltage - unit 6,%.2F,%.2F V
+1156,,,,N/A,,vt6,VE.Bus Terminal voltage - unit 7,%.2F,%.2F V
+1157,,,,N/A,,vt7,VE.Bus Terminal voltage - unit 8,%.2F,%.2F V
+1158,,,,N/A,,vt8,VE.Bus Terminal voltage - unit 9,%.2F,%.2F V
+1159,,,,N/A,,vt9,VE.Bus Terminal voltage - unit 10,%.2F,%.2F V
+1160,,,,N/A,,vt10,VE.Bus Terminal voltage - unit 11,%.2F,%.2F V
+1161,,,,N/A,,vt11,VE.Bus Terminal voltage - unit 12,%.2F,%.2F V
+1162,Inverter,,,1754310493:52.66; 1754310553:52.66; 1754310613:52.66; 1754310673:52.66; 1754310733:52.62,,vu0,VE.Bus sense voltage - unit 1,%.2F,%.2F V
+1163,,,,N/A,,Tga,Generator run-time,%.2F,%.2F s
+1164,,,,N/A,,vbp,VE.Bus BMS Pre-alarm,%s,%s
+1165,,,,N/A,Percetange,sct,Target SOC for a scheduled charge slot,%.0F,%.0F %%
+1166,,,,N/A,,gaS,Generator state,%s,%s
+1167,Inverter,,,1754310498:0; 1754311758:0; 1754311818:0; 1754311878:0; 1754316678:0,,vcn,VE.Bus custom name,%s,%s
+1168,Inverter,,,1754310500:3; 1754310560:3; 1754310620:3.7; 1754310680:3.7; 1754310740:3.7,,vIL1,AC Input 1 Current Limit,%.2F,%.2F A
+1169,,,,N/A,,vIL2,AC Input 2 Current Limit,%.2F,%.2F A
+1170,Inverter,,,1754310503:1; 1754311763:1; 1754311823:1; 1754311883:1; 1754313143:1,,vIA1,AC Input 1 Current Limit Adjustable,%s,%s
+1171,,,,N/A,,vIA2,AC Input 1 Current Limit Adjustable,%s,%s
+1172,,,,N/A,,vrm_solar_irradiance,Solar Irradiance,%.0F,%.2F W/m²
+1173,,,,N/A,,vrm_solar_irradiance_fc,Solar Irradiance Forecast,%.0F,%.2F W/m²
+1174,,,,N/A,,H4sp,Grid setpoint,%.0F,%.0F W
+1175,,,,N/A,Percetange,ssl,Active SOC Limit,%.0F,%.0F %%
+1176,,,,N/A,,vu,Uptime of the 1st device,%d,%d s
+1177,,,,N/A,,vu1,Uptime of the 2nd device,%d,%d s
+1178,,,,N/A,,vu2,Uptime of the 3rd device,%d,%d s
+1179,,,,N/A,,vu3,Uptime of the 4th device,%d,%d s
+1180,,,,N/A,,vu4,Uptime of the 5th device,%d,%d s
+1181,,,,N/A,,vu5,Uptime of the 6th device,%d,%d s
+1182,,,,N/A,,vu6,Uptime of the 7th device,%d,%d s
+1183,,,,N/A,,vu7,Uptime of the 8th device,%d,%d s
+1184,,,,N/A,,vu8,Uptime of the 9th device,%d,%d s
+1185,,,,N/A,,vu9,Uptime of the 10th device,%d,%d s
+1186,,,,N/A,,vu10,Uptime of the 11th device,%d,%d s
+1187,,,,N/A,,vu11,Uptime of the 12th device,%d,%d s
+1188,,,,N/A,,DcP,Product ID,%s,%s
+1189,,,,N/A,,DcS,State,%s,%s
+1190,,,,N/A,,DcE,Error,%s,%s
+1191,,,,N/A,,DciV,Input voltage,%.2F,%.2F V
+1192,,,,N/A,,DcoV,Output voltage,%.2F,%.2F V
+1193,,,,N/A,,DcOR,Off reason,%s,%s
+1194,,,,N/A,,Dccn,Custom name,%s,%s
+1195,,,,N/A,,sLP,Product ID,%s,%s
+1196,,,,N/A,,sLE,Error,%s,%s
+1197,,,,N/A,,sLcV1,Cell 1 voltage,%.2F,%.2F V
+1198,,,,N/A,,sLcV2,Cell 2 voltage,%.2F,%.2F V
+1199,,,,N/A,,sLcV3,Cell 3 voltage,%.2F,%.2F V
+1200,,,,N/A,,sLcV4,Cell 4 voltage,%.2F,%.2F V
+1201,,,,N/A,,sLcV5,Cell 5 voltage,%.2F,%.2F V
+1202,,,,N/A,,sLcV6,Cell 6 voltage,%.2F,%.2F V
+1203,,,,N/A,,sLcV7,Cell 7 voltage,%.2F,%.2F V
+1204,,,,N/A,,sLcV8,Cell 8 voltage,%.2F,%.2F V
+1205,,,,N/A,,sLBS,Balancer state,%s,%s
+1206,,,,N/A,,sLV,Battery voltage,%.2F,%.2F V
+1207,,,,N/A,,sLT,Battery temperature,%.0F,%.0F °C
+1208,,,,N/A,,sLcn,Custom name,%s,%s
+1209,,,,N/A,,bPP,Product ID,%s,%s
+1210,,,,N/A,,bPS,State,%s,%s
+1211,,,,N/A,,bPOS,Output state,%s,%s
+1212,,,,N/A,,bPE,Error,%s,%s
+1213,,,,N/A,,bPiV,Input voltage,%.2F,%.2F V
+1214,,,,N/A,,bPoV,Output voltage,%.2F,%.2F V
+1215,,,,N/A,,bPOR,Off reason,%s,%s
+1216,,,,N/A,,bPcn,Custom name,%s,%s
+1217,,,,N/A,,Dcsn,Serial number,%s,%s
+1218,,,,N/A,,sLsn,Serial number,%s,%s
+1219,,,,N/A,,bPsn,Serial number,%s,%s
+1220,MPPT,,,1754294362:0.08151000000000001; 1754297962:0.09595999999999999; 1754301562:0.10062; 1754305162:0.09514; 1754308762:0.09475,,vrm_pv_charger_yield_fc,PV Yield Solar Charger Forecast,%.2F,%.2F kWh
+1221,,,,N/A,,vrm_pv_inverter_yield_fc,PV Inverter Yield Forecast,%.0F,%.0F Wh
+1222,,,,N/A,,vrm_consumption_fc,Consumption Forecast,%.2F,%.0F kWh
+1223,,,,N/A,,PVMm0,MPPT State Tracker 0,%s,%s
+1224,,,,N/A,,PVMm1,MPPT State Tracker 1,%s,%s
+1225,,,,N/A,,PVMm2,MPPT State Tracker 2,%s,%s
+1226,,,,N/A,,PVMm3,MPPT State Tracker 3,%s,%s
+1227,,,,N/A,,iPVMm0,MPPT State Tracker 1,%s,%s
+1228,,,,N/A,,iPVMm1,MPPT State Tracker 2,%s,%s
+1229,,,,N/A,,iPVMm2,MPPT State Tracker 3,%s,%s
+1230,,,,N/A,,iPVMm3,MPPT State Tracker 4,%s,%s
+1231,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1232,,,,N/A,,mPVMm0,MPPT State Tracker 1,%s,%s
+1233,,,,N/A,,mPVMm1,MPPT State Tracker 2,%s,%s
+1234,,,,N/A,,mPVMm2,MPPT State Tracker 3,%s,%s
+1235,,,,N/A,,mPVMm3,MPPT State Tracker 4,%s,%s
+1236,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1237,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1238,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1239,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1240,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1241,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1242,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1243,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1244,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1245,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1246,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1247,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1248,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1249,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1250,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1251,,,,N/A,,vrm_inverter_yield_fc,Inverter total forcasted yield,%.0F,%.0F Wh
+1252,,,,N/A,,vrm_inverter_yield_0_fc,Inverter tracker 0 forcasted yield,%.0F,%.0F Wh
+1253,,,,N/A,,vrm_inverter_yield_1_fc,Inverter tracker 1 forcasted yield,%.0F,%.0F Wh
+1254,,,,N/A,,vrm_inverter_yield_2_fc,Inverter tracker 2 forcasted yield,%.0F,%.0F Wh
+1255,,,,N/A,,vrm_inverter_yield_3_fc,Inverter tracker 3 forcasted yield,%.0F,%.0F Wh
+1256,,,,N/A,,vrm_inv_crg_yield_fc,Inverter/Charger total forcasted yield,%.0F,%.0F Wh
+1257,,,,N/A,,vrm_inv_crg_yield_0_fc,Inverter/Charger tracker 0 forcasted yield,%.0F,%.0F Wh
+1258,,,,N/A,,vrm_inv_crg_yield_1_fc,Inverter/Charger tracker 1 forcasted yield,%.0F,%.0F Wh
+1259,,,,N/A,,vrm_inv_crg_yield_2_fc,Inverter/Charger tracker 2 forcasted yield,%.0F,%.0F Wh
+1260,,,,N/A,,vrm_inv_crg_yield_3_fc,Inverter/Charger tracker 3 forcasted yield,%.0F,%.0F Wh
+1261,,,,N/A,,vrm_pv_charger_yield_0_fc,MPPT RS tracker 0 forcasted yield,%.0F,%.0F Wh
+1262,,,,N/A,,vrm_pv_charger_yield_1_fc,MPPT RS tracker 1 forcasted yield,%.0F,%.0F Wh
+1263,,,,N/A,,vrm_pv_charger_yield_2_fc,MPPT RS tracker 2 forcasted yield,%.0F,%.0F Wh
+1264,,,,N/A,,vrm_pv_charger_yield_3_fc,MPPT RS tracker 3 forcasted yield,%.0F,%.0F Wh
+1265,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1266,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1267,Inverter,,,1754310501:2; 1754310561:2; 1754310621:2; 1754310681:2; 1754310741:2,,vbl,BMS lost,%s,%s
+1268,,,,N/A,,Gop,Engine Oil Pressure,%.2F,%.2F kPa
+1269,,,,N/A,,pr,Prefer renewable energy,%s,%s
+1270,,,,N/A,,dem,DESS Mode – Controlled by user,%s,%s
+1271,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1272,,,,N/A,,des,DESS State – System following a schedule or not,%s,%s
+1273,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1274,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1275,,,,N/A,Percetange,dems,Minimum battery SOC below which selling always stops,%.1F,%.1F %%
+1276,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1277,,,,N/A,Percetange,dets,SOC target for currently active auto operation,%.1F,%.1F %%
+1278,,,,N/A,,vrm_to_battery_fc,DESS expected energy to battery flow,%.0F,%.0F Wh
+1279,,,,N/A,,vrm_to_grid_fc,DESS expected energy to grid flow,%.0F,%.0F Wh
+1280,,,,N/A,,deBc,Battery costs for energy in and out,%.2F,%.2F mu/kWh
+1281,,,,N/A,,deGb,Grid buy price,%.2F,%.2F mu/kWh
+1282,,,,N/A,,deGs,Grid sell price,%.2F,%.2F mu/kWh
+1283,,,,N/A,,guiHash,GUI Hash for Remote Console,%s,%s
+1284,,,,N/A,,vrm_to_battery_def,Default ESS simulated energy to battery flow,%.0F,%.0F Wh
+1285,,,,N/A,,vrm_to_grid_def,Default ESS simulated energy to grid flow,%.0F,%.0F Wh
+1286,,,,N/A,Percetange,vrm_soc_def,Default ESS simulated SOC,%.1F,%.1F %%
+1287,,,,N/A,,gasd,Service count-down,%d,%d s
+1288,,,,N/A,,gasr,Service due,%s,%s
+1289,,,,N/A,,dec,DESS battery capacity,%.2F,%.2F kWh
+1290,,,,N/A,,dee,DESS error code,%s,%s
+1291,,,,N/A,,SS,Split Phase L2 L1 Out Summed,%s,%s
+1292,,,,N/A,,msT2,External temperature 2,%.2F,%.2F °C
+1293,,,,N/A,,gs,Grid serial number,%s,%s
+1294,,,,N/A,,as,AC load serial number,%s,%s
+1295,,,,N/A,AC Voltage,gpn,PEN (Protective earth-Neutral) voltage,%.2F,%.1F V
+1296,,,,N/A,Percetange,vrm_soc_plan,DESS scheduled SOC,%.1F,%.1F %%
+1297,Inverter,,,1754310476:272703520; 1754310536:272703520; 1754310596:272703520; 1754310656:272703520; 1754310716:272703520,,f00,"RawStatusflags0, first 32 bits for first VE.Bus device",%s,%s
+1298,,,,N/A,,f01,"RawStatusflags0, first 32 bits for the second VE.Bus device",%s,%s
+1299,,,,N/A,,f02,"RawStatusflags0, first 32 bits for the third VE.Bus device",%s,%s
+1300,,,,N/A,,f03,"RawStatusflags0, first 32 bits for the fourth VE.Bus device",%s,%s
+1301,,,,N/A,,f04,"RawStatusflags0, first 32 bits for the fifth VE.Bus device",%s,%s
+1302,,,,N/A,,f05,"RawStatusflags0, first 32 bits for the sixth VE.Bus device",%s,%s
+1303,,,,N/A,,f06,"RawStatusflags0, first 32 bits for the seventh VE.Bus device",%s,%s
+1304,,,,N/A,,f07,"RawStatusflags0, first 32 bits for the eighth VE.Bus device",%s,%s
+1305,,,,N/A,,f08,"RawStatusflags0, first 32 bits for the ninth VE.Bus device",%s,%s
+1306,,,,N/A,,f09,"RawStatusflags0, first 32 bits for the tenth VE.Bus device",%s,%s
+1307,,,,N/A,,f0a,"RawStatusflags0, first 32 bits for the eleventh VE.Bus device",%s,%s
+1308,,,,N/A,,f0b,"RawStatusflags0, first 32 bits for the twelfth VE.Bus device",%s,%s
+1309,,,,N/A,,f10,"RawStatusflags1, the next 32 bits for first VE.Bus device",%s,%s
+1310,,,,N/A,,f11,"RawStatusflags1, the next 32 bits for the second VE.Bus device",%s,%s
+1311,,,,N/A,,f12,"RawStatusflags1, the next 32 bits for the third VE.Bus device",%s,%s
+1312,,,,N/A,,f13,"RawStatusflags1, the next 32 bits for the fourth VE.Bus device",%s,%s
+1313,,,,N/A,,f14,"RawStatusflags1, the next 32 bits for the fifth VE.Bus device",%s,%s
+1314,,,,N/A,,f15,"RawStatusflags1, the next 32 bits for the sixth VE.Bus device",%s,%s
+1315,,,,N/A,,f16,"RawStatusflags1, the next 32 bits for the seventh VE.Bus device",%s,%s
+1316,,,,N/A,,f17,"RawStatusflags1, the next 32 bits for the eighth VE.Bus device",%s,%s
+1317,,,,N/A,,f18,"RawStatusflags1, the next 32 bits for the ninth VE.Bus device",%s,%s
+1318,,,,N/A,,f19,"RawStatusflags1, the next 32 bits for the tenth VE.Bus device",%s,%s
+1319,,,,N/A,,f1a,"RawStatusflags1, the next 32 bits for the eleventh VE.Bus device",%s,%s
+1320,,,,N/A,,f1b,"RawStatusflags1, the next 32 bits for the twelfth VE.Bus device",%s,%s
+1321,Inverter,,,1754310505:0; 1754310565:0; 1754310625:0; 1754310685:0; 1754310745:0,,wf0,Warning and Error flags for first VE.Bus device for first VE.Bus device,%s,%s
+1322,,,,N/A,,wf1,Warning and Error flags for first VE.Bus device for the second VE.Bus device,%s,%s
+1323,,,,N/A,,wf2,Warning and Error flags for first VE.Bus device for the third VE.Bus device,%s,%s
+1324,,,,N/A,,wf3,Warning and Error flags for first VE.Bus device for the fourth VE.Bus device,%s,%s
+1325,,,,N/A,,wf4,Warning and Error flags for first VE.Bus device for the fifth VE.Bus device,%s,%s
+1326,,,,N/A,,wf5,Warning and Error flags for first VE.Bus device for the sixth VE.Bus device,%s,%s
+1327,,,,N/A,,wf6,Warning and Error flags for first VE.Bus device for the seventh VE.Bus device,%s,%s
+1328,,,,N/A,,wf7,Warning and Error flags for first VE.Bus device for the eighth VE.Bus device,%s,%s
+1329,,,,N/A,,wf8,Warning and Error flags for first VE.Bus device for the ninth VE.Bus device,%s,%s
+1330,,,,N/A,,wf9,Warning and Error flags for first VE.Bus device for the tenth VE.Bus device,%s,%s
+1331,,,,N/A,,wfa,Warning and Error flags for first VE.Bus device for the eleventh VE.Bus device,%s,%s
+1332,,,,N/A,,wfb,Warning and Error flags for first VE.Bus device for the twelfth VE.Bus device,%s,%s
+1333,,,,N/A,,def,DESS system efficiency,%d,%d
+1334,,,,N/A,,der,DESS Grid/battery energy exporting restrictions,%s,%s
+1335,,,,N/A,,evE,15-minute energy delta for an evcharger,%.2F,%.2F kWh
+1336,,,,N/A,,decp,DESS Capabilities,%s,%s
+1337,,,,N/A,,dels,DESS Last schedule start,%d,%d
+1338,,,,N/A,,dele,DESS Last schedule end,%d,%d
+1339,Inverter,,,1754310527:0; 1754310587:0; 1754310647:0; 1754310707:0; 1754310767:0,,vib1,Unequal output distribution in parallel system: L1,%s,%s
+1340,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1341,Inverter,,,1754310529:0; 1754310589:0; 1754310649:0; 1754310709:0; 1754310769:0,,vib2,Unequal output distribution in parallel system: L2,%s,%s
+1342,Inverter,,,1754310530:0; 1754310590:0; 1754310650:0; 1754310710:0; 1754310770:0,,vib3,Unequal output distribution in parallel system: L3,%s,%s
+1343,Inverter,,,1754310532:0; 1754310592:0; 1754310652:0; 1754310712:0; 1754310772:0,,vmb1,Unequal mains distribution in parallel system: L1,%s,%s
+1344,Inverter,,,1754310533:0; 1754310593:0; 1754310653:0; 1754310713:0; 1754310773:0,,vmb2,Unequal mains distribution in parallel system: L2,%s,%s
+1345,Inverter,,,1754310534:0; 1754310594:0; 1754310654:0; 1754310714:0; 1754310774:0,,vmb3,Unequal mains distribution in parallel system: L3,%s,%s
+1346,MPPT,,,1754293136:20; 1754293196:20; 1754293256:20; 1754293316:20; 1754293376:20,,Scl,Solar charge current limit,%.1F,%.1F A
+1347,,,,N/A,,mcl,Solar charge current limit,%.1F,%.1F A
+1348,,,,N/A,,icl,Solar charge current limit,%.1F,%.1F A
+1349,,,,N/A,,vcp00,Unit 0 CNB0,%d,%d
+1350,,,,N/A,,vcp01,Unit 0 CNB1,%d,%d
+1351,,,,N/A,,vcp02,Unit 0 CNB2,%d,%d
+1352,,,,N/A,,vcp03,Unit 0 CNB3,%d,%d
+1353,,,,N/A,,vmp00,Unit 0 Main0,%d,%d
+1354,,,,N/A,,vmp01,Unit 0 Main1,%d,%d
+1355,,,,N/A,,vmp02,Unit 0 Main2,%d,%d
+1356,,,,N/A,,vmp03,Unit 0 Main3,%d,%d
+1357,,,,N/A,,vcp10,Unit 1 CNB0,%d,%d
+1358,,,,N/A,,vcp11,Unit 1 CNB1,%d,%d
+1359,,,,N/A,,vcp12,Unit 1 CNB2,%d,%d
+1360,,,,N/A,,vcp13,Unit 1 CNB3,%d,%d
+1361,,,,N/A,,vmp10,Unit 1 Main0,%d,%d
+1362,,,,N/A,,vmp11,Unit 1 Main1,%d,%d
+1363,,,,N/A,,vmp12,Unit 1 Main2,%d,%d
+1364,,,,N/A,,vmp13,Unit 1 Main3,%d,%d
+1365,,,,N/A,,vcp20,Unit 2 CNB0,%d,%d
+1366,,,,N/A,,vcp21,Unit 2 CNB1,%d,%d
+1367,,,,N/A,,vcp22,Unit 2 CNB2,%d,%d
+1368,,,,N/A,,vcp23,Unit 2 CNB3,%d,%d
+1369,,,,N/A,,vmp20,Unit 2 Main0,%d,%d
+1370,,,,N/A,,vmp21,Unit 2 Main1,%d,%d
+1371,,,,N/A,,vmp22,Unit 2 Main2,%d,%d
+1372,,,,N/A,,vmp23,Unit 2 Main3,%d,%d
+1373,,,,N/A,,vcp30,Unit 3 CNB0,%d,%d
+1374,,,,N/A,,vcp31,Unit 3 CNB1,%d,%d
+1375,,,,N/A,,vcp32,Unit 3 CNB2,%d,%d
+1376,,,,N/A,,vcp33,Unit 3 CNB3,%d,%d
+1377,,,,N/A,,vmp30,Unit 3 Main0,%d,%d
+1378,,,,N/A,,vmp31,Unit 3 Main1,%d,%d
+1379,,,,N/A,,vmp32,Unit 3 Main2,%d,%d
+1380,,,,N/A,,vmp33,Unit 3 Main3,%d,%d
+1381,,,,N/A,,vcp40,Unit 4 CNB0,%d,%d
+1382,,,,N/A,,vcp41,Unit 4 CNB1,%d,%d
+1383,,,,N/A,,vcp42,Unit 4 CNB2,%d,%d
+1384,,,,N/A,,vcp43,Unit 4 CNB3,%d,%d
+1385,,,,N/A,,vmp40,Unit 4 Main0,%d,%d
+1386,,,,N/A,,vmp41,Unit 4 Main1,%d,%d
+1387,,,,N/A,,vmp42,Unit 4 Main2,%d,%d
+1388,,,,N/A,,vmp43,Unit 4 Main3,%d,%d
+1389,,,,N/A,,vcp50,Unit 5 CNB0,%d,%d
+1390,,,,N/A,,vcp51,Unit 5 CNB1,%d,%d
+1391,,,,N/A,,vcp52,Unit 5 CNB2,%d,%d
+1392,,,,N/A,,vcp53,Unit 5 CNB3,%d,%d
+1393,,,,N/A,,vmp50,Unit 5 Main0,%d,%d
+1394,,,,N/A,,vmp51,Unit 5 Main1,%d,%d
+1395,,,,N/A,,vmp52,Unit 5 Main2,%d,%d
+1396,,,,N/A,,vmp53,Unit 5 Main3,%d,%d
+1397,,,,N/A,,vcp60,Unit 6 CNB0,%d,%d
+1398,,,,N/A,,vcp61,Unit 6 CNB1,%d,%d
+1399,,,,N/A,,vcp62,Unit 6 CNB2,%d,%d
+1400,,,,N/A,,vcp63,Unit 6 CNB3,%d,%d
+1401,,,,N/A,,vmp60,Unit 6 Main0,%d,%d
+1402,,,,N/A,,vmp61,Unit 6 Main1,%d,%d
+1403,,,,N/A,,vmp62,Unit 6 Main2,%d,%d
+1404,,,,N/A,,vmp63,Unit 6 Main3,%d,%d
+1405,,,,N/A,,vcp70,Unit 7 CNB0,%d,%d
+1406,,,,N/A,,vcp71,Unit 7 CNB1,%d,%d
+1407,,,,N/A,,vcp72,Unit 7 CNB2,%d,%d
+1408,,,,N/A,,vcp73,Unit 7 CNB3,%d,%d
+1409,,,,N/A,,vmp70,Unit 7 Main0,%d,%d
+1410,,,,N/A,,vmp71,Unit 7 Main1,%d,%d
+1411,,,,N/A,,vmp72,Unit 7 Main2,%d,%d
+1412,,,,N/A,,vmp73,Unit 7 Main3,%d,%d
+1413,,,,N/A,,vcp80,Unit 8 CNB0,%d,%d
+1414,,,,N/A,,vcp81,Unit 8 CNB1,%d,%d
+1415,,,,N/A,,vcp82,Unit 8 CNB2,%d,%d
+1416,,,,N/A,,vcp83,Unit 8 CNB3,%d,%d
+1417,,,,N/A,,vmp80,Unit 8 Main0,%d,%d
+1418,,,,N/A,,vmp81,Unit 8 Main1,%d,%d
+1419,,,,N/A,,vmp82,Unit 8 Main2,%d,%d
+1420,,,,N/A,,vmp83,Unit 8 Main3,%d,%d
+1421,,,,N/A,,vcp90,Unit 9 CNB0,%d,%d
+1422,,,,N/A,,vcp91,Unit 9 CNB1,%d,%d
+1423,,,,N/A,,vcp92,Unit 9 CNB2,%d,%d
+1424,,,,N/A,,vcp93,Unit 9 CNB3,%d,%d
+1425,,,,N/A,,vmp90,Unit 9 Main0,%d,%d
+1426,,,,N/A,,vmp91,Unit 9 Main1,%d,%d
+1427,,,,N/A,,vmp92,Unit 9 Main2,%d,%d
+1428,,,,N/A,,vmp93,Unit 9 Main3,%d,%d
+1429,,,,N/A,,vcpa0,Unit 10 CNB0,%d,%d
+1430,,,,N/A,,vcpa1,Unit 10 CNB1,%d,%d
+1431,,,,N/A,,vcpa2,Unit 10 CNB2,%d,%d
+1432,,,,N/A,,vcpa3,Unit 10 CNB3,%d,%d
+1433,,,,N/A,,vmpa0,Unit 10 Main0,%d,%d
+1434,,,,N/A,,vmpa1,Unit 10 Main1,%d,%d
+1435,,,,N/A,,vmpa2,Unit 10 Main2,%d,%d
+1436,,,,N/A,,vmpa3,Unit 10 Main3,%d,%d
+1437,,,,N/A,,vcpb0,Unit 11 CNB0,%d,%d
+1438,,,,N/A,,vcpb1,Unit 11 CNB1,%d,%d
+1439,,,,N/A,,vcpb2,Unit 11 CNB2,%d,%d
+1440,,,,N/A,,vcpb3,Unit 11 CNB3,%d,%d
+1441,,,,N/A,,vmpb0,Unit 11 Main0,%d,%d
+1442,,,,N/A,,vmpb1,Unit 11 Main1,%d,%d
+1443,,,,N/A,,vmpb2,Unit 11 Main2,%d,%d
+1444,,,,N/A,,vmpb3,Unit 11 Main3,%d,%d
+1445,,,,N/A,,AI0,ID of first module with warning/alarm (Module0),%s,%s
+1446,,,,N/A,,ACI0,Module0 has cell imbalance,%s,%s
+1447,,,,N/A,,AHC0,Module0 High Charge Current Alarm,%s,%s
+1448,,,,N/A,,AHCT0,Module0 High Charge Temperature,%s,%s
+1449,,,,N/A,,AHD0,Module0 High Discharge Current,%s,%s
+1450,,,,N/A,,AHT0,Module0 High Temperature,%s,%s
+1451,,,,N/A,,AH0,Module0 High Voltage,%s,%s
+1452,,,,N/A,,AIE0,Module0 Internal Failure,%s,%s
+1453,,,,N/A,,ALCT0,Module0 Low Charge Temperature,%s,%s
+1454,,,,N/A,,ALT0,Module0 Low Temperature,%s,%s
+1455,,,,N/A,,AL0,Module0 Low Voltage,%s,%s
+1456,,,,N/A,,AI1,ID of second module with warning/alarm (Module1),%s,%s
+1457,,,,N/A,,ACI1,Module1 has cell imbalance,%s,%s
+1458,,,,N/A,,AHC1,Module1 High Charge Current Alarm,%s,%s
+1459,,,,N/A,,AHCT1,Module1 High Charge Temperature,%s,%s
+1460,,,,N/A,,AHD1,Module1 High Discharge Current,%s,%s
+1461,,,,N/A,,AHT1,Module1 High Temperature,%s,%s
+1462,,,,N/A,,AH1,Module1 High Voltage,%s,%s
+1463,,,,N/A,,AIE1,Module1 Internal Failure,%s,%s
+1464,,,,N/A,,ALCT1,Module1 Low Charge Temperature,%s,%s
+1465,,,,N/A,,ALT1,Module1 Low Temperature,%s,%s
+1466,,,,N/A,,AL1,Module1 Low Voltage,%s,%s
+1467,,,,N/A,,AI2,ID of third module with warning/alarm (Module2),%s,%s
+1468,,,,N/A,,ACI2,Module2 has cell imbalance,%s,%s
+1469,,,,N/A,,AHC2,Module2 High Charge Current Alarm,%s,%s
+1470,,,,N/A,,AHCT2,Module2 High Charge Temperature,%s,%s
+1471,,,,N/A,,AHD2,Module2 High Discharge Current,%s,%s
+1472,,,,N/A,,AHT2,Module2 High Temperature,%s,%s
+1473,,,,N/A,,AH2,Module2 High Voltage,%s,%s
+1474,,,,N/A,,AIE2,Module2 Internal Failure,%s,%s
+1475,,,,N/A,,ALCT2,Module2 Low Charge Temperature,%s,%s
+1476,,,,N/A,,ALT2,Module2 Low Temperature,%s,%s
+1477,,,,N/A,,AL2,Module2 Low Voltage,%s,%s
+1478,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1479,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1480,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1481,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1482,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1483,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1484,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1485,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1486,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1487,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1488,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1489,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1490,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1491,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1492,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1493,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1494,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1495,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1496,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1497,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1498,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1499,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1500,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1501,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1502,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1503,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1504,,,,N/A,,dea,DESS Available,%s,%s
+1505,,,,N/A,,gasi,Service interval,%d,%d s
+1506,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1507,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1508,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1509,,,,N/A,,Dcv,Firmware version,%s,%s
+1510,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1511,,,,N/A,,DcoI,Output current,%.1F,%.1F A
+1512,,,,N/A,,DcT,Batery temperature,%.1F,%.1F °C
+1513,,,,N/A,,DcM,Mode,%s,%s
+1514,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1515,,,,N/A,,DciP,Input power,%d,%d W
+1516,,,,N/A,,Dcah,Total Amp-hours charged by charger,%.1F,%.1F Ah
+1517,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1518,,,,N/A,,tsA,Low battery alarm,%s,%s
+1519,,,,N/A,,PVn0,Custom name for tracker 1,%s,%s
+1520,,,,N/A,,PVn1,Custom name for tracker 2,%s,%s
+1521,,,,N/A,,PVn2,Custom name for tracker 3,%s,%s
+1522,,,,N/A,,PVn3,Custom name for tracker 4,%s,%s
+1523,,,,N/A,,iPVn0,Custom name for tracker 1,%s,%s
+1524,,,,N/A,,iPVn1,Custom name for tracker 2,%s,%s
+1525,,,,N/A,,iPVn2,Custom name for tracker 3,%s,%s
+1526,,,,N/A,,iPVn3,Custom name for tracker 4,%s,%s
+1527,,,,N/A,,mPVn0,Custom name for tracker 1,%s,%s
+1528,,,,N/A,,mPVn1,Custom name for tracker 2,%s,%s
+1529,,,,N/A,,mPVn2,Custom name for tracker 3,%s,%s
+1530,,,,N/A,,mPVn3,Custom name for tracker 4,%s,%s
+1531,,,,N/A,,vrm_dess_hour_restriction,DESS Hourly restrictions,%s,%s
+1532,,,,N/A,,vrm_dess_coping_strategy,DESS Coping strategy,%s,%s
+1533,,,,N/A,,aliP,Input power,%d,%d W
+1534,,,,N/A,,aliV,Input voltage,%.2F,%.2F V
+1535,,,,N/A,,alOR,Device off reason,%s,%s
+1536,,,,N/A,,alah,Charged Ah,%s,%s Ah
+1537,,,,N/A,,alM,Mode,%s,%s
+1538,,,,N/A,,vrm_pv_charger_yield_fc2,PV Yield Solar Charger Forecast - BETA,%.2F,%.2F kWh
+1539,,,,N/A,,vrm_pv_inverter_yield_fc2,PV Inverter Yield Forecast - BETA,%.0F,%.0F Wh
+1540,,,,N/A,,vrm_inverter_yield_fc2,Inverter total forecasted yield  - BETA,%.0F,%.0F Wh
+1541,,,,N/A,,vrm_inverter_yield_0_fc2,Inverter tracker 0 forecasted yield v2,%.0F,%.0F Wh
+1542,,,,N/A,,vrm_inverter_yield_1_fc2,Inverter tracker 1 forecasted yield - BETA,%.0F,%.0F Wh
+1543,,,,N/A,,vrm_inverter_yield_2_fc2,Inverter tracker 2 forecasted yield  - BETA,%.0F,%.0F Wh
+1544,,,,N/A,,vrm_inverter_yield_3_fc2,Inverter tracker 3 forecasted yield  - BETA,%.0F,%.0F Wh
+1545,,,,N/A,,vrm_inv_crg_yield_fc2,Inverter/Charger total forecasted yield  - BETA,%.0F,%.0F Wh
+1546,,,,N/A,,vrm_inv_crg_yield_0_fc2,Inverter/Charger tracker 0 forecasted yield - BETA,%.0F,%.0F Wh
+1547,,,,N/A,,vrm_inv_crg_yield_1_fc2,Inverter/Charger tracker 1 forecasted yield - BETA,%.0F,%.0F Wh
+1548,,,,N/A,,vrm_inv_crg_yield_2_fc2,Inverter/Charger tracker 2 forecasted yield - BETA,%.0F,%.0F Wh
+1549,,,,N/A,,vrm_inv_crg_yield_3_fc2,Inverter/Charger tracker 3 forecasted yield - BETA,%.0F,%.0F Wh
+1550,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1551,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1552,,,,N/A,,vrm_pv_crg_yield_0_fc2,MPPT RS tracker 0 forecasted yield - BETA,%.0F,%.0F Wh
+1553,,,,N/A,,vrm_pv_crg_yield_1_fc2,MPPT RS tracker 1 forecasted yield - BETA,%.0F,%.0F Wh
+1554,,,,N/A,,vrm_pv_crg_yield_2_fc2,MPPT RS tracker 2 forecasted yield - BETA,%.0F,%.0F Wh
+1555,,,,N/A,,vrm_pv_crg_yield_3_fc2,MPPT RS tracker 3 forecasted yield - BETA,%.0F,%.0F Wh
+1556,,,,N/A,,vrm_yield_today_fc,Total solar forecasted yield for today,%.0F,%.0F
+1557,,,,N/A,,vrm_yield_today_fc2,Total solar forecasted yield for today - BETA,%.0F,%.0F
+1558,,,,N/A,Percetange,vrm_day_ahead_acc_fc,PV Yield model day-ahead accuracy,%.0F,%.0F
+1559,,,,N/A,Percetange,vrm_day_ahead_acc_fc2,PV Yield model day-ahead accuracy - BETA,%.0F,%.0F
+1560,,,,N/A,Percetange,vrm_mape_fc,PV Yield model day-ahead MAPE,%.0F,%.0F
+1561,,,,N/A,Percetange,vrm_mape_fc2,PV Yield model day-ahead MAPE - BETA,%.0F,%.0F
+1562,,,,N/A,Percetange,vrm_smape_fc,PV Yield model day-ahead SMAPE,%.0F,%.0F
+1563,,,,N/A,Percetange,vrm_smape_fc2,PV Yield model day-ahead SMAPE - BETA,%.0F,%.0F
+1564,,,,N/A,,vrm_consumption_fc_adj,User adjusted consumption forecast,%.2F,%.0F kWh
+1565,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1566,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1567,,,,N/A,,evconn,Connection,%s,%s
+1568,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1569,,,,N/A,,alE1,Error identifier 2,%s,%s
+1570,,,,N/A,,alE2,Error identifier 3,%s,%s
+1571,,,,N/A,,alE3,Error identifier 4,%s,%s
+1572,,,,N/A,,alE4,Error identifier 5,%s,%s
+1573,,,,N/A,,alE5,Error identifier 6,%s,%s
+1574,,,,N/A,,alE6,Error identifier 7,%s,%s
+1575,,,,N/A,,alE7,Error identifier 8,%s,%s
+1576,,,,N/A,,alE0,Error identifier 1,%s,%s
+1577,,,,N/A,,deas,DESS Strategy,%s,%s
+1578,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1579,,,,N/A,,dear,DESS Restrictions,%s,%s
+1580,,,,N/A,,deaf,DESS AllowGridFeedIn,%s,%s
+1581,,,,N/A,,gv,Firmware version,%s,%s
+1582,,,,N/A,,gada,GX Auto start/stop disabled,%s,%s
+1583,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1584,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1585,,,,N/A,,gara,Remote start is disabled on the genset,%s,%s
+1586,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1587,,,,N/A,Percetange,vrm_consum_mape_fc_live,Consumption model day-ahead MAPE - LIVE,%.0F,%.0F
+1588,,,,N/A,,vrm_consum_1_day_fc_live,Total (day-ahead) forecasted consumption - LIVE,%.0F,%.0F
+1589,,,,N/A,,Bm,Manufacturer,%s,%s
+1590,,,,N/A,,Bf,Family,%s,%s
+1591,,,,N/A,,Bci,Connection information,%s,%s
+1592,,,,N/A,,defci,DESS full charge interval,%s,%s days
+1593,,,,N/A,,defcd,DESS full charge duration,%s,%s hours
+1594,,,,N/A,,vrm_consumption_fc_beta,Consumption Forecast Beta model,%.2F,%.0F kWh
+1595,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1596,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1597,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1598,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1599,,,,N/A,,mcVCId,Minimum cell voltage Cell ID,%s,%s
+1600,,,,N/A,,McVCId,Maximum cell voltage Cell ID,%s,%s
+1601,,,,N/A,,mcTCId,Minimum cell temperature Cell ID,%s,%s
+1602,,,,N/A,,McTCId,Maximum cell temperature Cell ID,%s,%s
+1603,,,,N/A,,vrm_consum_1_day_fc_beta,Total (day-ahead) forecasted consumption - BETA,%.0F,%.0F
+1604,,,,N/A,Percetange,vrm_consum_mape_fc_beta,Consumption model day-ahead MAPE - BETA,%.0F,%.0F
+1605,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1606,,,,N/A,,vrm_ffcs,DESS forced full charge scheduling - periodic full charge,%s,%s
+1607,,,,N/A,,Got,Engine Oil Temperature,%.1F,%.1F °C
+1608,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1609,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1610,,,,N/A,,mdr,AC Input Disconnection Reason,%s,%s
+1611,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1612,,,,N/A,,vrm,VRM Portal Mode,%s,%s
+1613,,,,N/A,,mesc,Multi-RS short circuit alarm,%s,%s
+1614,,,,N/A,,mSu,Multi-RS sustain active,%s,%s
+1615,,,,N/A,,Gei,Generator error 0,%s,%s
+1616,,,,N/A,,Gei1,Generator error 1,%s,%s
+1617,,,,N/A,,Gei2,Generator error 2,%s,%s
+1618,,,,N/A,,Gei3,Generator error 3,%s,%s
+1619,,,,N/A,,Gei4,Generator error 4,%s,%s
+1620,,,,N/A,,Gei5,Generator error 5,%s,%s
+1621,,,,N/A,,Gei6,Generator error 6,%s,%s
+1622,,,,N/A,,Gei7,Generator error 7,%s,%s
+1623,,,,N/A,,eA,Alarm notification,%s,%s
+1624,,,,N/A,,accn,AC System custom name,%s,%s
+1625,,,,N/A,,aPC,Number of phases,%d,%d
+1626,,,,N/A,,ani,Number of AC inputs,%d,%d
+1627,,,,N/A,,aAI,Active input,%s,%s
+1628,,,,N/A,,aps,ESS AC Power setpoint,%d,%d W
+1629,,,,N/A,,acs,Mode,%s,%s
+1630,,,,N/A,Percetange,ams,Minimum SoC limit,%d,%d %%
+1631,,,,N/A,,aM,ESS Mode,%s,%s
+1632,,,,N/A,,aS,State,%s,%s
+1633,,,,N/A,,aIL,AC Input current limit,%d,%d A
+1634,,,,N/A,,aIA,AC Input current limit adjustable,%s,%s
+1635,,,,N/A,,aIV1,Input voltage L1,%.1F,%.1F V
+1636,,,,N/A,,aIP1,Input power L1,%d,%d W
+1637,,,,N/A,,aII1,Input current L1,%.1F,%.1F A
+1638,,,,N/A,,aIF1,Input frequency,%.1F,%.1F Hz
+1639,,,,N/A,,aIV2,Input voltage L2,%.1F,%.1F V
+1640,,,,N/A,,aIP2,Input power L2,%d,%d W
+1641,,,,N/A,,aII2,Input current L2,%.1F,%.1F A
+1642,,,,N/A,,aIV3,Input voltage L3,%.1F,%.1F V
+1643,,,,N/A,,aIP3,Input power L3,%d,%d W
+1644,,,,N/A,,aII3,Input current L3,%.1F,%.1F A
+1645,,,,N/A,,aOV1,Output voltage L1,%.1F,%.1F V
+1646,,,,N/A,,aOP1,Output power L1,%d,%d W
+1647,,,,N/A,,aOI1,Output current L1,%.1F,%.1F A
+1648,,,,N/A,,aOF1,Output frequency,%.1F,%.1F Hz
+1649,,,,N/A,,aOV2,Output voltage L2,%.1F,%.1F V
+1650,,,,N/A,,aOP2,Output power L2,%d,%d W
+1651,,,,N/A,,aOI2,Output current L2,%.1F,%.1F A
+1652,,,,N/A,,aOV3,Output voltage L3,%.1F,%.1F V
+1653,,,,N/A,,aOP3,Output power L3,%d,%d W
+1654,,,,N/A,,aOI3,Output current L3,%.1F,%.1F A
+1655,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1656,,,,N/A,,agl,Grid lost alarm,%s,%s
+1657,,,,N/A,,aPr,Phase rotation alarm,%s,%s
+1658,,,,N/A,,Bbs,Balancer Status,%s,%s
+1659,,,,N/A,,slce,SmartLithium Communication Error,%s,%s
+1660,,,,N/A,,slve,SmartLithium Voltage Error,%s,%s
+1661,,,,N/A,,slbc,SmartLithium Number of Batteries Error,%s,%s
+1662,,,,N/A,,slic,SmartLithium Invalid Configuration Error,%s,%s
+1663,,,,N/A,,mAI,Active input,%s,%s
+1664,,,,N/A,,AIT,Active Input Service Type,%s,%s
+1665,,,,N/A,,TSe,Tailscale enabled,%s,%s
+1666,,,,N/A,,TSs,Tailscale state,%s,%s
+1667,,,,N/A,,TSae,Allow access to local ethernet network,%s,%s
+1668,,,,N/A,,TSaw,Allow access to local WiFi network,%s,%s
+1669,,,,N/A,,TSr,Networks accessible over the VPN,%s,%s
+1670,,,,N/A,,TSa,Custom arguments when starting the service,%s,%s
+1671,,,,N/A,,TSu,URL the client connects to,%s,%s
+1672,,,,N/A,,TSh,Name of Venus device on the VPN,%s,%s
+1673,,,,N/A,,TS4,IPV4 address on the VPN,%s,%s
+1674,,,,N/A,,TS6,IPv6 address on the VPN,%s,%s
+1675,,,,N/A,,TSl,The One-time link needed to join the device to the VPN,%s,%s
+1676,,,,N/A,,vrm_fc_reset,Installation forecasts were reset,%s,%s
+1677,MPPT,,,1754294376:1; 1754297976:1; 1754301576:1; 1754305176:1; 1754308776:1,,vrm_pv_fc_model,Model used for solar forecasting,%s,%s
+1678,,,,N/A,,vrm_irradiance_today_fc,Total forecasted solar irradiance for today,,
+1679,,,,N/A,Percetange,vrm_irradiance_mape_fc,Solar Irradiance forecast day-ahead MAPE,,
+1680,,,,N/A,AC Voltage,a1v,AC Meter voltage L1,%.2F,%.1F V
+1681,,,,N/A,,a1c,AC Meter current L1,%.1F,%.1F A
+1682,,,,N/A,AC Voltage,a2v,AC Meter voltage L2,%.2F,%.1F V
+1683,,,,N/A,,a2c,AC Meter current L2,%.1F,%.1F A
+1684,,,,N/A,AC Voltage,a3v,AC Meter voltage L3,%.2F,%.1F V
+1685,,,,N/A,,a3c,AC Meter current L3,%.1F,%.1F A
+1686,,,,N/A,,aF,AC Meter frequency,%.1F,%.1F Hz
+1687,,,,N/A,,FP,DC Generator model,%s,%s
+1688,,,,N/A,,Fv,Firmware Version,%s,%s
+1689,,,,N/A,,Fas,Remote start mode,%s,%s
+1690,,,,N/A,,Fcn,DC Generator custom name,%s,%s
+1691,,,,N/A,,FST,Genset Status,%s,%s
+1692,,,,N/A,,Fei,DC Generator error 0,%s,%s
+1693,,,,N/A,,Fei1,DC Generator error 1,%s,%s
+1694,,,,N/A,,Fei2,DC Generator error 2,%s,%s
+1695,,,,N/A,,Fei3,DC Generator error 3,%s,%s
+1696,,,,N/A,,Fei4,DC Generator error 4,%s,%s
+1697,,,,N/A,,Fei5,DC Generator error 5,%s,%s
+1698,,,,N/A,,Fei6,DC Generator error 6,%s,%s
+1699,,,,N/A,,Fei7,DC Generator error 7,%s,%s
+1700,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1701,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1702,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1703,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1704,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1705,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1706,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1707,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1708,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1709,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1710,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1711,,,,N/A,,Fet,Exhaust gas temperature,%.1F,%.1F °C
+1712,,,,N/A,,Fdc,DC Output Current,%.1F,%.1F A
+1713,,,,N/A,,Fdv,DC Output Voltage,%.1F,%.1F V
+1714,,,,N/A,,Fct,Engine temperature,%.1F,%.1F °C
+1715,,,,N/A,Percetange,Fel,Engine load as Percentage,%.1F,%.1F %%
+1716,,,,N/A,,Fop,Engine Oil Pressure,%.2F,%.2F kPa
+1717,,,,N/A,,Fot,Engine Oil Temperature,%.1F,%.1F °C
+1718,,,,N/A,,Feo,Operating time in seconds,%s,%s s
+1719,,,,N/A,,Fes,Engine RPM,%s,%s RPM
+1720,,,,N/A,,Fwt,Internal temperature of alternator/generator,%.1F,%.1F °C
+1721,,,,N/A,,Fsv,Starter battery voltage,%.1F,%.1F V
+1722,,,,N/A,,GUIv,GUI version,%s,%s
+1723,,,,N/A,,daE,Energy delta,%.2F,%.2F kWh
+1724,,,,N/A,,vrm_consum_evcs_fc_beta,EVCS Consumption Beta Forecast,%.2F,%.0F kWh
+1725,,,,N/A,,hP,Product ID,%s,%s
+1726,,,,N/A,,hs,Serial number,%s,%s
+1727,,,,N/A,,hcn,Custom name,%s,%s
+1728,,,,N/A,,hS,Heatpump state,%d,%d
+1729,,,,N/A,,ht,Temperature,%.1F,%.1F °C
+1730,,,,N/A,,hT,Target temperature,%.1F,%.1F °C
+1731,,,,N/A,,hpp,Heatpump power,%d,%d W
+1732,,,,N/A,,hf,Forward energy,%.2F,%.2F kWh
+1733,,,,N/A,,dhE,Energy delta,%.2F,%.2F kWh
+1734,,,,N/A,,av,Firmware version,%s,%s
+1735,,,,N/A,,hv,Firmware version,%s,%s
+1736,,,,N/A,,sm,Modified GX,%s,%s
+1737,,,,N/A,,cs,Custom startup,%s,%s
+1738,,,,N/A,,aIM,AC Input current limit at Energy Meter,%d,%d A
+1739,,,,N/A,Percetange,asl,Active SoC Limit,%d,%d %%
+1740,,,,N/A,,cf1,VE.Can 2 (SPI) Status,%s,%s
+1741,,,,N/A,Percetange,crp1,VE.Can 2 SPI retry percentage,%d,%d %%
+1742,,,,N/A,,Gp,Genset total power,%d,%d W
+1743,,,,N/A,,vrm_consum_misc_fc_beta,Miscellaneous Consumption Beta Forecast,%.2F,%.0F kWh
+1744,,,,N/A,,vrm_consum_evcs_fc,EVCS Consumption Forecast,%.2F,%.0F kWh
+1745,,,,N/A,,vrm_consum_misc_fc,Miscellaneous Consumption Forecast,%.2F,%.0F kWh
+1746,,,,N/A,,deom,DESS Operating mode,%s,%s
+1747,,,,N/A,,degel,DESS Grid export limit,%.2F,%.2F kW
+1748,,,,N/A,,degil,DESS Grid import limit,%.2F,%.2F kW
+1749,,,,N/A,,debcl,DESS Battery charge limit,%.2F,%.2F kW
+1750,,,,N/A,,debdl,DESS Battery discharge limit,%.2F,%.2F kW
+1751,,,,N/A,,AHCV,High cell voltage,%s,%s
+1752,,,,N/A,,vrm_ffcsst,DESS forced full charge scheduling - starting time,%s,%s
+1753,,,,N/A,,evpid,Product ID,%s,%s
+1754,,,,N/A,,evse,Serial,%s,%s
+1755,,,,N/A,,evcm,Custom name,%s,%s
+1756,,,,N/A,,evbt,Battery Temperature,%.1F,%.1F °C
+1757,,,,N/A,Percetange,evsoc,State of Charge,%.1F,%.1F %%
+1758,,,,N/A,,evcp_deprecated,EV Charge Power (Deprecated),%d,%d W
+1759,,,,N/A,,evca_replaced,Battery Capacity,%.1F,%.1F kWh
+1760,,,,N/A,Percetange,evts,Target State of Charge,%.1F,%.1F %%
+1761,,,,N/A,,evin,Vehicle Identification Number (VIN),%s,%s
+1762,,,,N/A,,evocp_deprecated,Onboard Charger Power (Deprecated),%d,%d W
+1763,,,,N/A,,evocv_deprecated,Onboard Charger Voltage (Deprecated),%d,%d V
+1764,,,,N/A,,evoci_deprecated,Onboard Charger Current (Deprecated),%d,%d A
+1765,,,,N/A,,evcc_deprecated,Charge Current (Deprecated),%.1F,%.1F A
+1766,,,,N/A,,evcs,Charging State,%s,%s
+1767,,,,N/A,,vrm_consum_hp_fc_beta,Heatpump Consumption Beta Forecast,%.2F,%.0F kWh
+1768,,,,N/A,,vrm_consum_hp_fc,Heatpump Consumption Forecast,%.2F,%.0F kWh
+1769,,,,N/A,,evo,Odometer,%d,%d km
+1770,,,,N/A,,evpt,Position Latitude,%.5F,%.5F °
+1771,,,,N/A,,evpg,Position Longitude,%.5F,%.5F °
+1772,,,,N/A,,evpf,Forward energy,%.2F,%.2F kWh
+1773,,,,N/A,,ders,DESS Reactive Strategy,%s,%s
+1774,,,,N/A,,decr,DESS Charge Rate,%.0f,%.0f W
+1775,,,,N/A,,AFF,Lynx NG Firmware Update Failure,%s,%s
+1776,,,,N/A,,iPVe0,MPP-tracker 1 Enabled,%s,%s
+1777,,,,N/A,,iPVe1,MPP-tracker 2 Enabled,%s,%s
+1778,,,,N/A,,iPVe2,MPP-tracker 3 Enabled,%s,%s
+1779,,,,N/A,,iPVe3,MPP-tracker 4 Enabled,%s,%s
+1780,,,,N/A,,mPVe0,MPP-tracker 1 Enabled,%s,%s
+1781,,,,N/A,,mPVe1,MPP-tracker 2 Enabled,%s,%s
+1782,,,,N/A,,mPVe2,MPP-tracker 3 Enabled,%s,%s
+1783,,,,N/A,,mPVe3,MPP-tracker 4 Enabled,%s,%s
+1784,,,,N/A,,PVe0,MPP-tracker 1 Enabled,%s,%s
+1785,,,,N/A,,PVe1,MPP-tracker 2 Enabled,%s,%s
+1786,,,,N/A,,PVe2,MPP-tracker 3 Enabled,%s,%s
+1787,,,,N/A,,PVe3,MPP-tracker 4 Enabled,%s,%s
+1788,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1789,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1790,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1791,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1792,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1793,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1794,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1795,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1796,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1797,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1798,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1799,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1800,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1801,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1802,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1803,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1804,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1805,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1806,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1807,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1808,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1809,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1810,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1811,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1812,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1813,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1814,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1815,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1816,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1817,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1818,,,,N/A,,evpr,Reverse energy,%.2F,%.2F kWh
+1819,,,,N/A,,evdcp,DC Power,%.0F,%.0F W
+1820,,,,N/A,,evdcv,DC Voltage,%.1F,%.1F V
+1821,,,,N/A,,evdci,DC Current,%.1F,%.1F A
+1822,,,,N/A,,evacp,AC Power,%.0F,%.0F W
+1823,,,,N/A,,evacv,AC Voltage,%.1F,%.1F V
+1824,,,,N/A,,evaci,AC Current,%.1F,%.1F A
+1825,,,,N/A,,evnop,Number of Phases,%d,%d
+1826,,,,N/A,,evmici,Minimum Charge Current,%.1F,%.1F A
+1827,,,,N/A,,evmaci,Maximum Charge Current,%.1F,%.1F A
+1828,,,,N/A,,evmidi,Minimum Discharge Current,%.1F,%.1F A
+1829,,,,N/A,,evmadi,Maximum Discharge Current,%.1F,%.1F A
+1830,,,,N/A,,evcp,EV Capabilities,%d,%d
+1831,,,,N/A,,evrtg,Range To Go,%.0F,%.0F km
+1832,,,,N/A,,evas,At Site,%s,%s
+1833,,,,N/A,,desc,Number of schedules supported by DynamicEss at this site,%d,%d
+1834,,,,N/A,,msA,Low Battery Alarm,%s,%s
+1835,,,,N/A,,mscn,Custom Name,%s,%s
+1836,,,,N/A,,msty,Yield today,%.2F,%.2F kWh
+1837,,,,N/A,,msip,Installation Power,%d,%d W
+1838,,,,N/A,,mDu,Cellular data used,%.6f,%.6f MiB
+1839,,,,N/A,,mDl,Cellular data limit,%.6f,%.6f MiB
+1840,,,,N/A,,mDe,Cellular data expires,%s,%s
+1841,,,,N/A,,pmm,SunSpec information model,%d,%d
+1842,,,,N/A,,plm,SunSpec limiter model,%d,%d
+1843,,,,N/A,,pgm,Is Generic Energy Meter,%s,%s
+1844,,,,N/A,,Ggm,Is Generic Energy Meter,%s,%s
+1845,,,,N/A,,evgm,Is Generic Energy Meter,%s,%s
+1846,,,,N/A,,evcb,Charging Started,%d,%d
+1847,,,,N/A,,vrm_offcs,Opportunistic forced full charge scheduling,%s,%s
+1848,,,,N/A,,evasbl,Starter Battery Low,%s,%s
+1849,,,,N/A,,evlc,Last EV Contact,%d,%d
+1850,,,,N/A,,evevcs,EVCS Connection,%d,%d
+1851,,,,N/A,,apt,Has AC Passthrough Support,%s,%s
+1852,,,,N/A,Power factor,g1pf,Grid Power factor - L1,%d,%d
+1853,,,,N/A,Power factor,g2pf,Grid Power factor - L2,%d,%d
+1854,,,,N/A,Power factor,g3pf,Grid Power factor - L3,%d,%d
+1855,,,,N/A,Power factor,gpf,Grid total Power factor,%d,%d
+1856,,,,N/A,Power factor,G1pf,Genset Power factor - L1,%d,%d
+1857,,,,N/A,Power factor,G2pf,Genset Power factor - L2,%d,%d
+1858,,,,N/A,Power factor,G3pf,Genset Power factor - L3,%d,%d
+1859,,,,N/A,Power factor,Gpf,Genset total Power factor,%d,%d
+1860,,,,N/A,Power factor,a1pf,Power factor - L1,%d,%d
+1861,,,,N/A,Power factor,a2pf,Power factor - L2,%d,%d
+1862,,,,N/A,Power factor,a3pf,Power factor - L3,%d,%d
+1863,,,,N/A,Power factor,apf,Total Power factor,%d,%d
+1864,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1865,,,,N/A,,shai,System has normal AC loads,%s,%s
+1866,,,,N/A,,swcm,Custom name,%s,%s
+1867,,,,N/A,,swpid,Product ID,%s,%s
+1868,,,,N/A,,swse,Serial number,%s,%s
+1869,,,,N/A,,swS,State,%s,%s
+1870,,,,N/A,,Bvl,Battery has VregLink,%s,%s
+1871,,,,N/A,,Scvl,Solarcharger has VregLink,%s,%s
+1872,,,,N/A,,pvl,Pvinverter has VregLink,%s,%s
+1873,,,,N/A,,cvl,Charger has VregLink,%s,%s
+1874,,,,N/A,,gvl,Grid has VregLink,%s,%s
+1875,,,,N/A,,ivl,Inverter has VregLink,%s,%s
+1876,,,,N/A,,evvl,Evcharger has VregLink,%s,%s
+1877,,,,N/A,,avl,Acload has VregLink,%s,%s
+1878,,,,N/A,,dsvl,Dcsource has VregLink,%s,%s
+1879,,,,N/A,,dlvl,Dcload has VregLink,%s,%s
+1880,,,,N/A,,dcvl,Dcsystem has VregLink,%s,%s
+1881,,,,N/A,,mvl,Multi has VregLink,%s,%s
+1882,,,,N/A,,Dcvl,Dcdc has VregLink,%s,%s
+1883,,,,N/A,,hvl,Heatpump has VregLink,%s,%s
+1884,,,,N/A,,swvl,Switch has VregLink,%s,%s
+1885,,,,N/A,Percetange,vrm_mape_backtesting_live,PV Yield model day-ahead backtesting MAPE - LIVE,%.0F,%.0F
+1886,,,,N/A,Percetange,vrm_mape_backtesting_beta,PV Yield model day-ahead backtesting MAPE - BETA,%.0F,%.0F
+1887,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1888,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1889,,,,N/A,,hl,Position,%s,%s
+1890,,,,N/A,,alo,Position,%s,%s
+1891,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1892,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1893,,,,N/A,,evca,Battery Capacity,%.1F,%.1F kWh
+1894,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1895,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1896,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1897,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1898,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1899,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1900,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1901,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1902,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1903,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1904,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1905,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1906,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1907,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1908,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1909,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1910,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1911,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1912,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1913,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1914,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1915,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1916,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1917,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1918,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1919,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1920,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1921,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1922,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1923,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1924,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1925,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1926,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1927,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1928,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1929,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1930,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1931,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1932,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1933,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1934,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1935,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1936,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1937,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1938,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1939,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1940,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1941,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1942,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1943,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1944,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1945,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1946,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1947,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1948,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1949,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1950,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1951,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1952,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1953,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1954,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1955,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1956,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1957,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1958,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1959,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1960,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1961,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1962,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1963,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1964,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1965,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1966,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1967,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1968,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1969,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1970,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1971,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1972,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1973,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1974,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1975,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1976,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1977,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1978,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1979,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1980,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1981,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1982,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1983,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1984,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1985,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1986,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1987,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1988,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1989,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1990,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1991,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1992,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1993,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1994,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1995,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1996,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1997,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1998,,,,N/A,N/A,N/A,N/A,N/A,N/A
+1999,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2000,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2001,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2002,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2003,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2004,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2005,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2006,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2007,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2008,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2009,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2010,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2011,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2012,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2013,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2014,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2015,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2016,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2017,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2018,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2019,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2020,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2021,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2022,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2023,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2024,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2025,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2026,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2027,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2028,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2029,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2030,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2031,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2032,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2033,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2034,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2035,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2036,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2037,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2038,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2039,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2040,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2041,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2042,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2043,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2044,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2045,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2046,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2047,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2048,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2049,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2050,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2051,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2052,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2053,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2054,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2055,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2056,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2057,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2058,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2059,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2060,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2061,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2062,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2063,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2064,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2065,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2066,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2067,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2068,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2069,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2070,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2071,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2072,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2073,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2074,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2075,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2076,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2077,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2078,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2079,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2080,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2081,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2082,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2083,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2084,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2085,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2086,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2087,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2088,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2089,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2090,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2091,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2092,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2093,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2094,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2095,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2096,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2097,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2098,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2099,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2100,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2101,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2102,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2103,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2104,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2105,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2106,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2107,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2108,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2109,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2110,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2111,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2112,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2113,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2114,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2115,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2116,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2117,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2118,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2119,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2120,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2121,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2122,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2123,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2124,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2125,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2126,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2127,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2128,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2129,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2130,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2131,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2132,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2133,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2134,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2135,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2136,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2137,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2138,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2139,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2140,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2141,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2142,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2143,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2144,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2145,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2146,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2147,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2148,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2149,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2150,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2151,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2152,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2153,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2154,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2155,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2156,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2157,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2158,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2159,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2160,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2161,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2162,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2163,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2164,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2165,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2166,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2167,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2168,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2169,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2170,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2171,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2172,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2173,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2174,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2175,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2176,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2177,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2178,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2179,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2180,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2181,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2182,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2183,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2184,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2185,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2186,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2187,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2188,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2189,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2190,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2191,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2192,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2193,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2194,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2195,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2196,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2197,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2198,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2199,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2200,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2201,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2202,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2203,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2204,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2205,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2206,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2207,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2208,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2209,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2210,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2211,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2212,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2213,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2214,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2215,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2216,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2217,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2218,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2219,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2220,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2221,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2222,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2223,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2224,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2225,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2226,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2227,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2228,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2229,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2230,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2231,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2232,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2233,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2234,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2235,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2236,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2237,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2238,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2239,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2240,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2241,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2242,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2243,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2244,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2245,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2246,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2247,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2248,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2249,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2250,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2251,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2252,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2253,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2254,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2255,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2256,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2257,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2258,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2259,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2260,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2261,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2262,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2263,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2264,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2265,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2266,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2267,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2268,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2269,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2270,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2271,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2272,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2273,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2274,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2275,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2276,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2277,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2278,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2279,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2280,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2281,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2282,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2283,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2284,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2285,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2286,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2287,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2288,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2289,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2290,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2291,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2292,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2293,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2294,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2295,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2296,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2297,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2298,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2299,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2300,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2301,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2302,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2303,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2304,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2305,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2306,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2307,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2308,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2309,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2310,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2311,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2312,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2313,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2314,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2315,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2316,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2317,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2318,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2319,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2320,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2321,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2322,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2323,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2324,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2325,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2326,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2327,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2328,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2329,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2330,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2331,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2332,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2333,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2334,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2335,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2336,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2337,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2338,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2339,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2340,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2341,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2342,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2343,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2344,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2345,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2346,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2347,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2348,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2349,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2350,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2351,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2352,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2353,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2354,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2355,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2356,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2357,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2358,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2359,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2360,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2361,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2362,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2363,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2364,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2365,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2366,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2367,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2368,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2369,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2370,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2371,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2372,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2373,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2374,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2375,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2376,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2377,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2378,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2379,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2380,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2381,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2382,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2383,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2384,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2385,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2386,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2387,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2388,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2389,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2390,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2391,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2392,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2393,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2394,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2395,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2396,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2397,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2398,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2399,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2400,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2401,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2402,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2403,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2404,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2405,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2406,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2407,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2408,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2409,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2410,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2411,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2412,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2413,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2414,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2415,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2416,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2417,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2418,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2419,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2420,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2421,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2422,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2423,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2424,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2425,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2426,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2427,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2428,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2429,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2430,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2431,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2432,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2433,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2434,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2435,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2436,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2437,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2438,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2439,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2440,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2441,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2442,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2443,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2444,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2445,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2446,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2447,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2448,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2449,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2450,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2451,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2452,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2453,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2454,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2455,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2456,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2457,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2458,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2459,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2460,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2461,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2462,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2463,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2464,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2465,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2466,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2467,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2468,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2469,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2470,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2471,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2472,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2473,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2474,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2475,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2476,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2477,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2478,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2479,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2480,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2481,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2482,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2483,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2484,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2485,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2486,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2487,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2488,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2489,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2490,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2491,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2492,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2493,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2494,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2495,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2496,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2497,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2498,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2499,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2500,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2501,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2502,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2503,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2504,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2505,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2506,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2507,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2508,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2509,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2510,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2511,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2512,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2513,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2514,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2515,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2516,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2517,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2518,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2519,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2520,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2521,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2522,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2523,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2524,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2525,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2526,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2527,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2528,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2529,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2530,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2531,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2532,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2533,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2534,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2535,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2536,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2537,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2538,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2539,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2540,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2541,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2542,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2543,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2544,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2545,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2546,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2547,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2548,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2549,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2550,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2551,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2552,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2553,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2554,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2555,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2556,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2557,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2558,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2559,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2560,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2561,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2562,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2563,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2564,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2565,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2566,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2567,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2568,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2569,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2570,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2571,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2572,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2573,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2574,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2575,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2576,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2577,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2578,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2579,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2580,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2581,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2582,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2583,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2584,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2585,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2586,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2587,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2588,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2589,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2590,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2591,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2592,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2593,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2594,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2595,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2596,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2597,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2598,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2599,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2600,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2601,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2602,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2603,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2604,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2605,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2606,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2607,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2608,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2609,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2610,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2611,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2612,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2613,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2614,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2615,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2616,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2617,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2618,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2619,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2620,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2621,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2622,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2623,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2624,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2625,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2626,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2627,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2628,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2629,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2630,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2631,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2632,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2633,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2634,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2635,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2636,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2637,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2638,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2639,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2640,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2641,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2642,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2643,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2644,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2645,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2646,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2647,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2648,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2649,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2650,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2651,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2652,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2653,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2654,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2655,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2656,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2657,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2658,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2659,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2660,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2661,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2662,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2663,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2664,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2665,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2666,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2667,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2668,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2669,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2670,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2671,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2672,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2673,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2674,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2675,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2676,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2677,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2678,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2679,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2680,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2681,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2682,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2683,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2684,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2685,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2686,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2687,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2688,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2689,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2690,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2691,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2692,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2693,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2694,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2695,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2696,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2697,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2698,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2699,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2700,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2701,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2702,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2703,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2704,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2705,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2706,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2707,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2708,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2709,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2710,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2711,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2712,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2713,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2714,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2715,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2716,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2717,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2718,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2719,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2720,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2721,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2722,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2723,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2724,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2725,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2726,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2727,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2728,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2729,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2730,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2731,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2732,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2733,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2734,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2735,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2736,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2737,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2738,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2739,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2740,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2741,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2742,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2743,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2744,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2745,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2746,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2747,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2748,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2749,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2750,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2751,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2752,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2753,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2754,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2755,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2756,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2757,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2758,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2759,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2760,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2761,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2762,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2763,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2764,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2765,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2766,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2767,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2768,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2769,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2770,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2771,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2772,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2773,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2774,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2775,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2776,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2777,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2778,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2779,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2780,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2781,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2782,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2783,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2784,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2785,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2786,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2787,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2788,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2789,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2790,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2791,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2792,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2793,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2794,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2795,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2796,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2797,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2798,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2799,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2800,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2801,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2802,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2803,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2804,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2805,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2806,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2807,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2808,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2809,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2810,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2811,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2812,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2813,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2814,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2815,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2816,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2817,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2818,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2819,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2820,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2821,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2822,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2823,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2824,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2825,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2826,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2827,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2828,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2829,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2830,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2831,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2832,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2833,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2834,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2835,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2836,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2837,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2838,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2839,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2840,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2841,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2842,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2843,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2844,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2845,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2846,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2847,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2848,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2849,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2850,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2851,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2852,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2853,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2854,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2855,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2856,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2857,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2858,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2859,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2860,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2861,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2862,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2863,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2864,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2865,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2866,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2867,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2868,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2869,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2870,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2871,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2872,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2873,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2874,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2875,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2876,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2877,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2878,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2879,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2880,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2881,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2882,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2883,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2884,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2885,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2886,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2887,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2888,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2889,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2890,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2891,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2892,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2893,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2894,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2895,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2896,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2897,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2898,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2899,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2900,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2901,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2902,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2903,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2904,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2905,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2906,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2907,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2908,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2909,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2910,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2911,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2912,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2913,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2914,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2915,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2916,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2917,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2918,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2919,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2920,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2921,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2922,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2923,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2924,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2925,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2926,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2927,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2928,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2929,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2930,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2931,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2932,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2933,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2934,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2935,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2936,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2937,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2938,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2939,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2940,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2941,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2942,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2943,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2944,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2945,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2946,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2947,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2948,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2949,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2950,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2951,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2952,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2953,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2954,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2955,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2956,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2957,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2958,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2959,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2960,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2961,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2962,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2963,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2964,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2965,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2966,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2967,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2968,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2969,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2970,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2971,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2972,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2973,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2974,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2975,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2976,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2977,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2978,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2979,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2980,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2981,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2982,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2983,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2984,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2985,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2986,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2987,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2988,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2989,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2990,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2991,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2992,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2993,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2994,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2995,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2996,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2997,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2998,,,,N/A,N/A,N/A,N/A,N/A,N/A
+2999,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3000,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3001,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3002,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3003,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3004,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3005,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3006,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3007,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3008,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3009,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3010,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3011,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3012,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3013,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3014,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3015,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3016,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3017,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3018,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3019,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3020,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3021,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3022,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3023,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3024,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3025,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3026,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3027,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3028,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3029,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3030,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3031,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3032,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3033,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3034,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3035,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3036,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3037,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3038,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3039,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3040,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3041,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3042,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3043,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3044,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3045,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3046,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3047,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3048,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3049,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3050,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3051,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3052,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3053,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3054,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3055,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3056,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3057,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3058,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3059,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3060,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3061,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3062,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3063,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3064,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3065,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3066,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3067,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3068,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3069,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3070,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3071,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3072,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3073,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3074,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3075,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3076,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3077,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3078,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3079,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3080,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3081,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3082,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3083,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3084,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3085,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3086,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3087,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3088,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3089,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3090,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3091,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3092,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3093,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3094,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3095,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3096,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3097,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3098,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3099,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3100,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3101,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3102,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3103,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3104,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3105,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3106,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3107,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3108,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3109,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3110,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3111,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3112,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3113,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3114,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3115,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3116,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3117,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3118,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3119,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3120,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3121,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3122,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3123,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3124,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3125,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3126,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3127,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3128,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3129,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3130,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3131,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3132,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3133,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3134,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3135,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3136,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3137,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3138,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3139,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3140,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3141,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3142,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3143,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3144,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3145,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3146,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3147,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3148,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3149,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3150,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3151,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3152,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3153,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3154,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3155,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3156,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3157,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3158,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3159,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3160,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3161,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3162,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3163,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3164,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3165,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3166,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3167,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3168,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3169,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3170,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3171,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3172,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3173,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3174,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3175,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3176,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3177,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3178,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3179,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3180,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3181,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3182,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3183,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3184,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3185,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3186,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3187,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3188,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3189,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3190,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3191,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3192,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3193,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3194,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3195,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3196,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3197,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3198,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3199,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3200,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3201,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3202,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3203,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3204,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3205,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3206,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3207,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3208,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3209,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3210,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3211,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3212,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3213,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3214,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3215,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3216,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3217,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3218,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3219,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3220,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3221,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3222,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3223,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3224,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3225,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3226,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3227,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3228,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3229,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3230,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3231,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3232,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3233,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3234,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3235,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3236,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3237,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3238,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3239,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3240,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3241,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3242,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3243,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3244,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3245,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3246,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3247,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3248,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3249,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3250,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3251,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3252,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3253,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3254,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3255,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3256,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3257,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3258,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3259,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3260,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3261,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3262,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3263,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3264,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3265,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3266,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3267,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3268,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3269,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3270,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3271,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3272,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3273,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3274,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3275,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3276,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3277,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3278,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3279,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3280,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3281,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3282,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3283,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3284,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3285,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3286,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3287,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3288,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3289,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3290,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3291,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3292,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3293,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3294,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3295,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3296,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3297,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3298,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3299,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3300,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3301,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3302,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3303,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3304,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3305,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3306,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3307,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3308,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3309,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3310,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3311,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3312,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3313,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3314,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3315,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3316,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3317,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3318,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3319,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3320,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3321,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3322,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3323,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3324,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3325,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3326,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3327,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3328,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3329,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3330,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3331,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3332,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3333,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3334,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3335,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3336,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3337,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3338,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3339,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3340,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3341,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3342,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3343,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3344,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3345,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3346,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3347,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3348,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3349,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3350,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3351,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3352,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3353,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3354,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3355,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3356,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3357,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3358,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3359,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3360,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3361,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3362,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3363,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3364,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3365,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3366,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3367,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3368,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3369,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3370,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3371,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3372,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3373,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3374,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3375,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3376,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3377,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3378,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3379,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3380,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3381,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3382,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3383,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3384,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3385,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3386,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3387,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3388,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3389,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3390,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3391,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3392,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3393,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3394,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3395,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3396,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3397,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3398,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3399,,,,N/A,N/A,N/A,N/A,N/A,N/A
+3400,,,,N/A,N/A,N/A,N/A,N/A,N/A
