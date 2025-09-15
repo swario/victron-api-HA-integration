@@ -6,7 +6,7 @@ This repository contains resources and instructions for integrating Victron Clou
 
 I used the following API request to retrieve various data points from the Victron Energy platform using different `attributeId` values. These `attributeId` values correspond to specific data points related to the installation, such as battery status, power production, and other measurements.
 
-To obtain the complete list of `attributeId` values, I reverse-engineered the API by making individual requests for each ID, which allowed me to compile a full list of sensors and their corresponding IDs.
+To obtain the complete list of `attributeId` values, I reverse-engineered the API by making individual requests for each ID, which allowed me to compile a full list of sensors and their corresponding IDs. "extracted_data.csv" contains this information
 
 ## Example API Request
 
